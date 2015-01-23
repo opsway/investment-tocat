@@ -1641,34 +1641,27 @@ h1 {
     h1 {
       font-size: 30px; } }
 
-/* line 79, E:/Projects/ops-invest/sass/all.scss */
-a {
-  text-decoration: none; }
-  /* line 81, E:/Projects/ops-invest/sass/all.scss */
-  a:hover, a:focus {
-    text-decoration: underline; }
-
-/* line 85, E:/Projects/ops-invest/sass/all.scss */
+/* line 80, E:/Projects/ops-invest/sass/all.scss */
 html {
   height: 100%; }
 
-/* line 88, E:/Projects/ops-invest/sass/all.scss */
+/* line 83, E:/Projects/ops-invest/sass/all.scss */
 body {
   height: 100%;
   display: table;
   width: 100%; }
 
-/* line 95, E:/Projects/ops-invest/sass/all.scss */
+/* line 90, E:/Projects/ops-invest/sass/all.scss */
 .footer {
   display: table-row;
   height: 1px; }
 
-/* line 99, E:/Projects/ops-invest/sass/all.scss */
+/* line 94, E:/Projects/ops-invest/sass/all.scss */
 .navbar-form {
   width: 100%; }
 
 @media (min-width: 768px) {
-  /* line 104, E:/Projects/ops-invest/sass/all.scss */
+  /* line 99, E:/Projects/ops-invest/sass/all.scss */
   .navbar-form {
     width: 500px; }
  }
@@ -1678,7 +1671,7 @@ body {
     padding: 0 !important;
     padding-left: 10px !important; } }
 
-/* line 116, E:/Projects/ops-invest/sass/all.scss */
+/* line 111, E:/Projects/ops-invest/sass/all.scss */
 .box-header {
   padding: 0 !important;
   overflow: hidden;
@@ -1686,20 +1679,20 @@ body {
   background: url(../images/bg-header-box.png) repeat-x;
   background-size: contain;
   z-index: 4 !important; }
-  /* line 123, E:/Projects/ops-invest/sass/all.scss */
+  /* line 118, E:/Projects/ops-invest/sass/all.scss */
   .box-header .btn-transparent {
     background: none;
     color: #fff;
     border: 2px solid; }
-    /* line 127, E:/Projects/ops-invest/sass/all.scss */
+    /* line 122, E:/Projects/ops-invest/sass/all.scss */
     .box-header .btn-transparent:hover, .box-header .btn-transparent:focus {
       color: #593156;
       background: #fff;
       border-color: #fff; }
-  /* line 133, E:/Projects/ops-invest/sass/all.scss */
+  /* line 128, E:/Projects/ops-invest/sass/all.scss */
   .box-header h1 {
     line-height: 1; }
-    /* line 135, E:/Projects/ops-invest/sass/all.scss */
+    /* line 130, E:/Projects/ops-invest/sass/all.scss */
     .box-header h1 span {
       background: #fff;
       color: #7f3758;
@@ -1708,7 +1701,7 @@ body {
       position: relative;
       margin: 10px 70px;
       padding: 5px 0; }
-      /* line 143, E:/Projects/ops-invest/sass/all.scss */
+      /* line 138, E:/Projects/ops-invest/sass/all.scss */
       .box-header h1 span:before {
         content: "";
         position: absolute;
@@ -1718,7 +1711,7 @@ body {
         height: 0;
         border-bottom: 70px solid #fff;
         border-left: 70px solid transparent; }
-      /* line 153, E:/Projects/ops-invest/sass/all.scss */
+      /* line 148, E:/Projects/ops-invest/sass/all.scss */
       .box-header h1 span:after {
         position: absolute;
         top: 0;
@@ -1729,20 +1722,20 @@ body {
         border-top: 70px solid #fff;
         border-right: 70px solid transparent; }
     @media only screen and (max-width: 1024px) {
-      /* line 165, E:/Projects/ops-invest/sass/all.scss */
+      /* line 160, E:/Projects/ops-invest/sass/all.scss */
       .box-header h1 span {
         font-size: 23px;
         margin: 0 26px; }
-        /* line 168, E:/Projects/ops-invest/sass/all.scss */
+        /* line 163, E:/Projects/ops-invest/sass/all.scss */
         .box-header h1 span:before {
           left: -33px;
           border-width: 33px; }
-        /* line 172, E:/Projects/ops-invest/sass/all.scss */
+        /* line 167, E:/Projects/ops-invest/sass/all.scss */
         .box-header h1 span:after {
           right: -33px;
           border-width: 33px; }
  }
-  /* line 179, E:/Projects/ops-invest/sass/all.scss */
+  /* line 174, E:/Projects/ops-invest/sass/all.scss */
   .box-header .img-header {
     position: absolute;
     right: 0;
@@ -1762,13 +1755,13 @@ body {
       .box-header .img-header {
         display: none; } }
 
-/* line 202, E:/Projects/ops-invest/sass/all.scss */
+/* line 197, E:/Projects/ops-invest/sass/all.scss */
 .list-header {
   font-size: 14px;
   margin: 0;
   padding: 0;
   list-style: none; }
-  /* line 207, E:/Projects/ops-invest/sass/all.scss */
+  /* line 202, E:/Projects/ops-invest/sass/all.scss */
   .list-header .title, .list-header .title-md {
     display: block;
     font-size: 24px;
@@ -1777,36 +1770,36 @@ body {
     @media only screen and (max-width: 1024px) {
       .list-header .title, .list-header .title-md {
         font-size: 18px; } }
-  /* line 216, E:/Projects/ops-invest/sass/all.scss */
+  /* line 211, E:/Projects/ops-invest/sass/all.scss */
   .list-header .text-list {
     overflow: hidden; }
-  /* line 219, E:/Projects/ops-invest/sass/all.scss */
+  /* line 214, E:/Projects/ops-invest/sass/all.scss */
   .list-header .title-md {
     font-size: 60px; }
-    /* line 221, E:/Projects/ops-invest/sass/all.scss */
+    /* line 216, E:/Projects/ops-invest/sass/all.scss */
     .list-header .title-md small {
       font-size: 28px; }
   @media only screen and (max-width: 1024px) {
     .list-header {
       font-size: 15px; }
-      /* line 226, E:/Projects/ops-invest/sass/all.scss */
+      /* line 221, E:/Projects/ops-invest/sass/all.scss */
       .list-header .title-md {
         font-size: 30px; }
-        /* line 228, E:/Projects/ops-invest/sass/all.scss */
+        /* line 223, E:/Projects/ops-invest/sass/all.scss */
         .list-header .title-md small {
           font-size: 15px;
           font-weight: normal;
           display: block; } }
-  /* line 236, E:/Projects/ops-invest/sass/all.scss */
+  /* line 231, E:/Projects/ops-invest/sass/all.scss */
   .list-header .btn, .list-header .btn-embossed {
     margin: 20px 0; }
-  /* line 239, E:/Projects/ops-invest/sass/all.scss */
+  /* line 234, E:/Projects/ops-invest/sass/all.scss */
   .list-header i {
     position: absolute;
     left: 0;
     top: 0;
     width: 50px; }
-  /* line 245, E:/Projects/ops-invest/sass/all.scss */
+  /* line 240, E:/Projects/ops-invest/sass/all.scss */
   .list-header li {
     position: relative;
     padding-left: 70px;
@@ -1814,44 +1807,47 @@ body {
     @media only screen and (max-width: 768px) {
       .list-header li {
         margin-bottom: 30px; } }
+  /* line 248, E:/Projects/ops-invest/sass/all.scss */
+  .list-header a {
+    text-decoration: underline; }
 
-/* line 254, E:/Projects/ops-invest/sass/all.scss */
+/* line 252, E:/Projects/ops-invest/sass/all.scss */
 *[class*=ico-] {
   display: inline-block;
   vertical-align: middle;
   text-align: center; }
-  /* line 258, E:/Projects/ops-invest/sass/all.scss */
+  /* line 256, E:/Projects/ops-invest/sass/all.scss */
   *[class*=ico-]:before {
     content: "";
     display: inline-block;
     vertical-align: middle;
     background: url(../images/icons.png) no-repeat; }
 
-/* line 266, E:/Projects/ops-invest/sass/all.scss */
+/* line 264, E:/Projects/ops-invest/sass/all.scss */
 .ico-1:before {
   background-position: 0 0;
   width: 50px;
   height: 47px; }
 
-/* line 273, E:/Projects/ops-invest/sass/all.scss */
+/* line 271, E:/Projects/ops-invest/sass/all.scss */
 .ico-2:before {
   background-position: -100px 0;
   width: 40px;
   height: 42px; }
 
-/* line 280, E:/Projects/ops-invest/sass/all.scss */
+/* line 278, E:/Projects/ops-invest/sass/all.scss */
 .ico-3:before {
   background-position: -200px 0;
   width: 41px;
   height: 43px; }
 
-/* line 287, E:/Projects/ops-invest/sass/all.scss */
+/* line 285, E:/Projects/ops-invest/sass/all.scss */
 .ico-4:before {
   background-position: -300px 0;
   width: 37px;
   height: 43px; }
 
-/* line 294, E:/Projects/ops-invest/sass/all.scss */
+/* line 292, E:/Projects/ops-invest/sass/all.scss */
 .btn, .btn-embossed {
   min-width: 280px; }
   @media only screen and (max-width: 768px) {
@@ -1861,23 +1857,23 @@ body {
     .btn, .btn-embossed {
       min-width: 0; } }
 
-/* line 303, E:/Projects/ops-invest/sass/all.scss */
+/* line 301, E:/Projects/ops-invest/sass/all.scss */
 .btn-transparent {
   background: none;
   color: #fff;
   border: 2px solid; }
-  /* line 307, E:/Projects/ops-invest/sass/all.scss */
+  /* line 305, E:/Projects/ops-invest/sass/all.scss */
   .btn-transparent:hover, .btn-transparent:focus {
     color: #000;
     background: #fff;
     border-color: #fff; }
 
-/* line 313, E:/Projects/ops-invest/sass/all.scss */
+/* line 311, E:/Projects/ops-invest/sass/all.scss */
 .header-block {
   border-left: 14px solid #523055;
   margin: 10px 0;
   padding-left: 20px; }
-  /* line 317, E:/Projects/ops-invest/sass/all.scss */
+  /* line 315, E:/Projects/ops-invest/sass/all.scss */
   .header-block.pull-right {
     float: none;
     text-align: right;
@@ -1893,14 +1889,14 @@ body {
         padding-right: 0;
         text-align: left; } }
 
-/* line 333, E:/Projects/ops-invest/sass/all.scss */
+/* line 331, E:/Projects/ops-invest/sass/all.scss */
 h3 {
   margin: 0;
   line-height: 1;
   font-size: 48px;
   font-weight: bold;
   text-transform: uppercase; }
-  /* line 339, E:/Projects/ops-invest/sass/all.scss */
+  /* line 337, E:/Projects/ops-invest/sass/all.scss */
   h3 > span {
     display: block;
     color: #a63c5a; }
@@ -1909,16 +1905,16 @@ h3 {
       font-size: 24px; } }
 
 /**/
-/* line 349, E:/Projects/ops-invest/sass/all.scss */
+/* line 347, E:/Projects/ops-invest/sass/all.scss */
 .main {
   overflow: hidden; }
 
-/* line 352, E:/Projects/ops-invest/sass/all.scss */
+/* line 350, E:/Projects/ops-invest/sass/all.scss */
 .main > *[class*=box-] {
   position: relative;
   z-index: 2;
   padding: 100px 0 75px; }
-  /* line 356, E:/Projects/ops-invest/sass/all.scss */
+  /* line 354, E:/Projects/ops-invest/sass/all.scss */
   .main > *[class*=box-]:before {
     content: "";
     position: absolute;
@@ -1937,16 +1933,16 @@ h3 {
 @media only screen and (max-width: 768px) {
   .box-interesting {
     padding-top: 30px !important; } }
-/* line 379, E:/Projects/ops-invest/sass/all.scss */
+/* line 377, E:/Projects/ops-invest/sass/all.scss */
 .box-interesting:before {
   top: 26% !important;
   background: #ffe030; }
 
-/* line 384, E:/Projects/ops-invest/sass/all.scss */
+/* line 382, E:/Projects/ops-invest/sass/all.scss */
 .box-condition {
   color: #fff;
   padding: 30px 0 117px !important; }
-  /* line 387, E:/Projects/ops-invest/sass/all.scss */
+  /* line 385, E:/Projects/ops-invest/sass/all.scss */
   .box-condition:before {
     background: #777 url(../images/img-box-condition.jpg) 50% 50% repeat; }
   @media only screen and (max-width: 768px) {
@@ -1955,11 +1951,11 @@ h3 {
   @media only screen and (max-width: 480px) {
     .box-condition {
       padding: 94px 0 0px !important; } }
-  /* line 396, E:/Projects/ops-invest/sass/all.scss */
+  /* line 394, E:/Projects/ops-invest/sass/all.scss */
   .box-condition .header-block {
     border-color: #aa3d5a !important; }
 
-/* line 400, E:/Projects/ops-invest/sass/all.scss */
+/* line 398, E:/Projects/ops-invest/sass/all.scss */
 .sun-img {
   position: absolute;
   top: 0;
@@ -1971,7 +1967,7 @@ h3 {
     .sun-img {
       display: none; } }
 
-/* line 411, E:/Projects/ops-invest/sass/all.scss */
+/* line 409, E:/Projects/ops-invest/sass/all.scss */
 .box-additional {
   padding: 220px 0 55px !important; }
   @media only screen and (max-width: 768px) {
@@ -1982,19 +1978,19 @@ h3 {
     .box-additional {
       padding: 70px 0 30px !important; } }
 
-/* line 422, E:/Projects/ops-invest/sass/all.scss */
+/* line 420, E:/Projects/ops-invest/sass/all.scss */
 .box-we {
   background: #e8edf0;
   padding: 62px 0 !important;
   text-align: center; }
 
-/* line 427, E:/Projects/ops-invest/sass/all.scss */
+/* line 425, E:/Projects/ops-invest/sass/all.scss */
 .box-form {
   text-align: center;
   background: #879ba7;
   padding: 20px 0 !important; }
 
-/* line 434, E:/Projects/ops-invest/sass/all.scss */
+/* line 432, E:/Projects/ops-invest/sass/all.scss */
 .list-interesting {
   font-size: 24px;
   font-weight: bold;
@@ -2003,12 +1999,12 @@ h3 {
   @media only screen and (max-width: 1024px) {
     .list-interesting {
       font-size: 18px; } }
-  /* line 443, E:/Projects/ops-invest/sass/all.scss */
+  /* line 441, E:/Projects/ops-invest/sass/all.scss */
   .list-interesting > ul {
     list-style: none;
     padding: 0;
     margin: 0; }
-    /* line 447, E:/Projects/ops-invest/sass/all.scss */
+    /* line 445, E:/Projects/ops-invest/sass/all.scss */
     .list-interesting > ul > li {
       position: relative;
       display: inline-block;
@@ -2016,10 +2012,10 @@ h3 {
       width: 49%;
       margin-bottom: 18px;
       text-align: left; }
-      /* line 454, E:/Projects/ops-invest/sass/all.scss */
+      /* line 452, E:/Projects/ops-invest/sass/all.scss */
       .list-interesting > ul > li:nth-child(2n+1) {
         margin-top: 80px; }
-      /* line 457, E:/Projects/ops-invest/sass/all.scss */
+      /* line 455, E:/Projects/ops-invest/sass/all.scss */
       .list-interesting > ul > li i {
         width: 90px;
         min-width: 90px;
@@ -2027,54 +2023,54 @@ h3 {
   @media only screen and (max-width: 768px) {
     .list-interesting {
       padding-top: 60px; }
-      /* line 467, E:/Projects/ops-invest/sass/all.scss */
+      /* line 465, E:/Projects/ops-invest/sass/all.scss */
       .list-interesting > ul > li {
         display: block;
         width: 100%;
         margin: 25px 0 !important; } }
 
-/* line 476, E:/Projects/ops-invest/sass/all.scss */
+/* line 474, E:/Projects/ops-invest/sass/all.scss */
 .ico-5:before {
   background-position: 0 -100px;
   width: 40px;
   height: 60px; }
 
-/* line 483, E:/Projects/ops-invest/sass/all.scss */
+/* line 481, E:/Projects/ops-invest/sass/all.scss */
 .ico-6:before {
   background-position: -100px -100px;
   width: 58px;
   height: 62px; }
 
-/* line 490, E:/Projects/ops-invest/sass/all.scss */
+/* line 488, E:/Projects/ops-invest/sass/all.scss */
 .ico-7:before {
   background-position: -200px -100px;
   width: 45px;
   height: 57px; }
 
-/* line 497, E:/Projects/ops-invest/sass/all.scss */
+/* line 495, E:/Projects/ops-invest/sass/all.scss */
 .ico-8:before {
   background-position: -300px -100px;
   width: 38px;
   height: 95px; }
 
-/* line 504, E:/Projects/ops-invest/sass/all.scss */
+/* line 502, E:/Projects/ops-invest/sass/all.scss */
 .ico-9:before {
   background-position: -400px -100px;
   width: 68px;
   height: 68px; }
 
-/* line 511, E:/Projects/ops-invest/sass/all.scss */
+/* line 509, E:/Projects/ops-invest/sass/all.scss */
 .ico-10:before {
   background-position: -500px -100px;
   width: 50px;
   height: 87px; }
 
-/* line 517, E:/Projects/ops-invest/sass/all.scss */
+/* line 515, E:/Projects/ops-invest/sass/all.scss */
 .text-interesting {
   display: table-cell;
   vertical-align: middle; }
 
-/* line 522, E:/Projects/ops-invest/sass/all.scss */
+/* line 520, E:/Projects/ops-invest/sass/all.scss */
 .title-pl {
   margin: auto;
   position: relative;
@@ -2089,7 +2085,7 @@ h3 {
   @media only screen and (max-width: 768px) {
     .title-pl {
       top: 66px; } }
-  /* line 536, E:/Projects/ops-invest/sass/all.scss */
+  /* line 534, E:/Projects/ops-invest/sass/all.scss */
   .title-pl > span {
     display: table-cell;
     font-size: 40px;
@@ -2098,12 +2094,12 @@ h3 {
     text-transform: uppercase;
     text-align: center;
     vertical-align: middle; }
-    /* line 544, E:/Projects/ops-invest/sass/all.scss */
+    /* line 542, E:/Projects/ops-invest/sass/all.scss */
     .title-pl > span > span {
       display: block;
       margin-top: 5px;
       font-size: 20px; }
-  /* line 551, E:/Projects/ops-invest/sass/all.scss */
+  /* line 549, E:/Projects/ops-invest/sass/all.scss */
   .title-pl:before {
     content: "";
     position: absolute;
@@ -2119,88 +2115,87 @@ h3 {
     .title-pl {
       width: 135px;
       height: 135px; }
-      /* line 567, E:/Projects/ops-invest/sass/all.scss */
+      /* line 565, E:/Projects/ops-invest/sass/all.scss */
       .title-pl > span {
         font-size: 24px; }
-        /* line 569, E:/Projects/ops-invest/sass/all.scss */
+        /* line 567, E:/Projects/ops-invest/sass/all.scss */
         .title-pl > span > span {
           font-size: 14px; }
-      /* line 573, E:/Projects/ops-invest/sass/all.scss */
+      /* line 571, E:/Projects/ops-invest/sass/all.scss */
       .title-pl:before {
         width: 240px;
         height: 240px;
         background: url(../images/img-poligon.png) no-repeat;
         background-size: contain; } }
 
-/* line 582, E:/Projects/ops-invest/sass/all.scss */
+/* line 580, E:/Projects/ops-invest/sass/all.scss */
 .list-condition {
   position: relative;
   font-weight: bold;
   min-height: 500px;
   max-width: 700px;
   margin: auto; }
-  /* line 588, E:/Projects/ops-invest/sass/all.scss */
+  /* line 586, E:/Projects/ops-invest/sass/all.scss */
   .list-condition ul {
     list-style: none;
     margin: 0;
     padding: 0; }
     /* line 593, E:/Projects/ops-invest/sass/all.scss */
-    .list-condition ul li a {
-      z-index: 2;
-      position: relative; }
-    /* line 598, E:/Projects/ops-invest/sass/all.scss */
     .list-condition ul *[class*=link-] {
       position: absolute; }
-    /* line 601, E:/Projects/ops-invest/sass/all.scss */
+    /* line 596, E:/Projects/ops-invest/sass/all.scss */
     .list-condition ul .link-1 {
       left: 30px;
       top: 30px; }
-      /* line 604, E:/Projects/ops-invest/sass/all.scss */
+      /* line 599, E:/Projects/ops-invest/sass/all.scss */
       .list-condition ul .link-1 img {
         position: absolute;
         top: -70px;
         right: -155px; }
-    /* line 610, E:/Projects/ops-invest/sass/all.scss */
+    /* line 605, E:/Projects/ops-invest/sass/all.scss */
     .list-condition ul .link-2 {
       right: -63px;
       top: 175px; }
-      /* line 613, E:/Projects/ops-invest/sass/all.scss */
+      /* line 608, E:/Projects/ops-invest/sass/all.scss */
       .list-condition ul .link-2 img {
         position: absolute;
         top: -100px;
         left: -100px; }
-    /* line 619, E:/Projects/ops-invest/sass/all.scss */
+    /* line 614, E:/Projects/ops-invest/sass/all.scss */
     .list-condition ul .link-3 {
       top: 300px;
       left: 50px; }
-      /* line 622, E:/Projects/ops-invest/sass/all.scss */
+      /* line 617, E:/Projects/ops-invest/sass/all.scss */
       .list-condition ul .link-3 img {
         position: absolute;
         right: -140px;
         top: -110px; }
-    /* line 628, E:/Projects/ops-invest/sass/all.scss */
+    /* line 623, E:/Projects/ops-invest/sass/all.scss */
     .list-condition ul .link-4 {
       bottom: 0;
       left: 0;
       right: 0;
       margin: auto;
       text-align: center; }
+    /* line 630, E:/Projects/ops-invest/sass/all.scss */
+    .list-condition ul a {
+      text-decoration: underline; }
   @media only screen and (max-width: 768px) {
     .list-condition {
       padding: 40px 0; }
-      /* line 640, E:/Projects/ops-invest/sass/all.scss */
+      /* line 637, E:/Projects/ops-invest/sass/all.scss */
       .list-condition ul li {
         text-align: center;
         margin: 10px 0 30px;
         position: static !important; }
-        /* line 644, E:/Projects/ops-invest/sass/all.scss */
+        /* line 641, E:/Projects/ops-invest/sass/all.scss */
         .list-condition ul li img {
           display: none !important; }
-        /* line 647, E:/Projects/ops-invest/sass/all.scss */
+        /* line 644, E:/Projects/ops-invest/sass/all.scss */
         .list-condition ul li.link-4 {
           margin-top: 100px; } }
 
-/* line 655, E:/Projects/ops-invest/sass/all.scss */
+/* line 652, E:/Projects/ops-invest/sass/all.scss */
 .img-additional-top {
   position: absolute;
   top: -80px;
@@ -2212,7 +2207,7 @@ h3 {
       height: auto;
       right: 0; } }
 
-/* line 666, E:/Projects/ops-invest/sass/all.scss */
+/* line 663, E:/Projects/ops-invest/sass/all.scss */
 .img-additional {
   position: absolute;
   right: 0;
@@ -2231,53 +2226,53 @@ h3 {
       bottom: -50px;
       right: -80px; } }
 
-/* line 685, E:/Projects/ops-invest/sass/all.scss */
+/* line 682, E:/Projects/ops-invest/sass/all.scss */
 .list-additional {
   padding: 30px 0;
   padding-left: 37px; }
-  /* line 689, E:/Projects/ops-invest/sass/all.scss */
+  /* line 686, E:/Projects/ops-invest/sass/all.scss */
   .list-additional ul {
     list-style: none;
     margin: 0;
     padding: 0; }
-    /* line 693, E:/Projects/ops-invest/sass/all.scss */
+    /* line 690, E:/Projects/ops-invest/sass/all.scss */
     .list-additional ul li {
       margin-top: 16px; }
 
-/* line 700, E:/Projects/ops-invest/sass/all.scss */
+/* line 697, E:/Projects/ops-invest/sass/all.scss */
 .list-users {
   position: relative;
   padding: 40px 0; }
-  /* line 703, E:/Projects/ops-invest/sass/all.scss */
+  /* line 700, E:/Projects/ops-invest/sass/all.scss */
   .list-users ul {
     margin: 0;
     padding: 0;
     list-style: none; }
-    /* line 707, E:/Projects/ops-invest/sass/all.scss */
+    /* line 704, E:/Projects/ops-invest/sass/all.scss */
     .list-users ul li {
       display: inline-block;
       vertical-align: top;
       width: 49%; }
   @media only screen and (max-width: 768px) {
-    /* line 715, E:/Projects/ops-invest/sass/all.scss */
+    /* line 712, E:/Projects/ops-invest/sass/all.scss */
     .list-users ul li {
       display: block;
       width: 100%;
       margin: 20px 0; }
  }
 
-/* line 723, E:/Projects/ops-invest/sass/all.scss */
+/* line 720, E:/Projects/ops-invest/sass/all.scss */
 .img-user {
   width: 230px;
   height: 230px;
   display: block;
   margin: auto;
   border-radius: 100%; }
-  /* line 729, E:/Projects/ops-invest/sass/all.scss */
+  /* line 726, E:/Projects/ops-invest/sass/all.scss */
   .img-user img {
     display: block; }
 
-/* line 733, E:/Projects/ops-invest/sass/all.scss */
+/* line 730, E:/Projects/ops-invest/sass/all.scss */
 .name {
   font-size: 24px;
   display: block;
@@ -2287,7 +2282,7 @@ h3 {
     .name {
       font-size: 18px; } }
 
-/* line 742, E:/Projects/ops-invest/sass/all.scss */
+/* line 739, E:/Projects/ops-invest/sass/all.scss */
 .icon {
   display: inline-block;
   vertical-align: middle;
@@ -2302,12 +2297,12 @@ h3 {
   line-height: 42px;
   text-align: center;
   border: 2px solid #333; }
-  /* line 756, E:/Projects/ops-invest/sass/all.scss */
+  /* line 753, E:/Projects/ops-invest/sass/all.scss */
   .icon:hover, .icon.active {
     background: transparent;
     color: #333; }
 
-/* line 762, E:/Projects/ops-invest/sass/all.scss */
+/* line 759, E:/Projects/ops-invest/sass/all.scss */
 .img-logo {
   position: absolute;
   left: 0;
@@ -2323,7 +2318,7 @@ h3 {
       margin: 0 auto;
       margin-bottom: 20px; } }
 
-/* line 777, E:/Projects/ops-invest/sass/all.scss */
+/* line 774, E:/Projects/ops-invest/sass/all.scss */
 .img-form {
   width: 121px;
   height: 121px;
@@ -2332,13 +2327,13 @@ h3 {
   margin-top: -80px;
   background: url(../images/form-img.png) no-repeat; }
 
-/* line 785, E:/Projects/ops-invest/sass/all.scss */
+/* line 782, E:/Projects/ops-invest/sass/all.scss */
 .input-ico {
   position: relative; }
-  /* line 787, E:/Projects/ops-invest/sass/all.scss */
+  /* line 784, E:/Projects/ops-invest/sass/all.scss */
   .input-ico input, .input-ico textarea {
     padding-left: 35px; }
-  /* line 790, E:/Projects/ops-invest/sass/all.scss */
+  /* line 787, E:/Projects/ops-invest/sass/all.scss */
   .input-ico *[class*=ico-] {
     position: absolute;
     left: 0;
@@ -2347,38 +2342,38 @@ h3 {
     bottom: 0;
     margin: auto;
     width: 35px; }
-    /* line 798, E:/Projects/ops-invest/sass/all.scss */
+    /* line 795, E:/Projects/ops-invest/sass/all.scss */
     .input-ico *[class*=ico-]:before {
       margin-top: 15px; }
-  /* line 802, E:/Projects/ops-invest/sass/all.scss */
+  /* line 799, E:/Projects/ops-invest/sass/all.scss */
   .input-ico .ico-mail:before {
     margin-top: 18px; }
 
-/* line 807, E:/Projects/ops-invest/sass/all.scss */
+/* line 804, E:/Projects/ops-invest/sass/all.scss */
 .ico-user:before {
   background-position: 0 -200px;
   width: 18px;
   height: 18px; }
 
-/* line 814, E:/Projects/ops-invest/sass/all.scss */
+/* line 811, E:/Projects/ops-invest/sass/all.scss */
 .ico-skype:before {
   background-position: -100px -200px;
   width: 20px;
   height: 20px; }
 
-/* line 821, E:/Projects/ops-invest/sass/all.scss */
+/* line 818, E:/Projects/ops-invest/sass/all.scss */
 .ico-mail:before {
   background-position: -200px -200px;
   width: 15px;
   height: 10px; }
 
-/* line 828, E:/Projects/ops-invest/sass/all.scss */
+/* line 825, E:/Projects/ops-invest/sass/all.scss */
 .ico-www:before {
   background-position: -299px -200px;
   width: 20px;
   height: 20px; }
 
-/* line 836, E:/Projects/ops-invest/sass/all.scss */
+/* line 833, E:/Projects/ops-invest/sass/all.scss */
 .form {
   overflow: hidden;
   max-width: 740px;
@@ -2386,13 +2381,13 @@ h3 {
   background: #fff;
   border-radius: 4px;
   border-bottom: 1px solid #dedede; }
-  /* line 843, E:/Projects/ops-invest/sass/all.scss */
+  /* line 840, E:/Projects/ops-invest/sass/all.scss */
   .form .btn, .form .btn-embossed {
     font-size: 28px; }
     @media only screen and (max-width: 480px) {
       .form .btn, .form .btn-embossed {
         width: 100%; } }
-  /* line 849, E:/Projects/ops-invest/sass/all.scss */
+  /* line 846, E:/Projects/ops-invest/sass/all.scss */
   .form legend {
     text-align: center;
     padding: 22px 0;
@@ -2406,17 +2401,17 @@ h3 {
     @media only screen and (max-width: 1024px) {
       .form legend {
         font-size: 18px; } }
-    /* line 862, E:/Projects/ops-invest/sass/all.scss */
+    /* line 859, E:/Projects/ops-invest/sass/all.scss */
     .form legend > span {
       color: #a63c5a; }
-  /* line 866, E:/Projects/ops-invest/sass/all.scss */
+  /* line 863, E:/Projects/ops-invest/sass/all.scss */
   .form .col-1, .form .col-2 {
     float: left;
     padding: 0 6px; }
-  /* line 870, E:/Projects/ops-invest/sass/all.scss */
+  /* line 867, E:/Projects/ops-invest/sass/all.scss */
   .form .col-1 {
     width: 40%; }
-  /* line 873, E:/Projects/ops-invest/sass/all.scss */
+  /* line 870, E:/Projects/ops-invest/sass/all.scss */
   .form .col-2 {
     width: 60%; }
   @media only screen and (max-width: 768px) {
@@ -2426,23 +2421,23 @@ h3 {
       margin: 50px 0;
       border-radius: 0; } }
 
-/* line 883, E:/Projects/ops-invest/sass/all.scss */
+/* line 880, E:/Projects/ops-invest/sass/all.scss */
 textarea {
   min-height: 245px;
   resize: vertical; }
 
-/* line 888, E:/Projects/ops-invest/sass/all.scss */
+/* line 885, E:/Projects/ops-invest/sass/all.scss */
 .form-content {
   padding: 12px 8px 40px;
   overflow: hidden; }
   @media only screen and (max-width: 768px) {
-    /* line 892, E:/Projects/ops-invest/sass/all.scss */
+    /* line 889, E:/Projects/ops-invest/sass/all.scss */
     .form-content .col-1, .form-content .col-2 {
       float: none;
       width: 100%;
       padding: 0; }
  }
-  /* line 898, E:/Projects/ops-invest/sass/all.scss */
+  /* line 895, E:/Projects/ops-invest/sass/all.scss */
   .form-content .alert {
     margin: 0px 6px 15px; }
     @media only screen and (max-width: 480px) {
@@ -2450,28 +2445,28 @@ textarea {
         margin: 0;
         margin-bottom: 15px; } }
 
-/* line 906, E:/Projects/ops-invest/sass/all.scss */
+/* line 903, E:/Projects/ops-invest/sass/all.scss */
 .form-control {
   border-width: 2px;
   box-shadow: inset 0 -3px 1px rgba(0, 0, 0, 0.075); }
 
-/* line 910, E:/Projects/ops-invest/sass/all.scss */
+/* line 907, E:/Projects/ops-invest/sass/all.scss */
 .btn, .btn-embossed {
   font-size: 24px; }
 
-/* line 913, E:/Projects/ops-invest/sass/all.scss */
+/* line 910, E:/Projects/ops-invest/sass/all.scss */
 .btn-embossed.btn-danger {
   box-shadow: 0 5px #d96a5d; }
 
-/* line 919, E:/Projects/ops-invest/sass/all.scss */
+/* line 916, E:/Projects/ops-invest/sass/all.scss */
 .text-through {
   text-decoration: line-through; }
 
-/* line 922, E:/Projects/ops-invest/sass/all.scss */
+/* line 919, E:/Projects/ops-invest/sass/all.scss */
 #mc_embed_signup input.mce_inline_error {
   border-color: #ad2323 !important; }
 
-/* line 926, E:/Projects/ops-invest/sass/all.scss */
+/* line 923, E:/Projects/ops-invest/sass/all.scss */
 .alert a {
   font-weight: bold;
   display: block; }
