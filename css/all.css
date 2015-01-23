@@ -1,0 +1,2472 @@
+/* line 57, E:/Projects/ops-invest/sass/all.scss */
+.form-control:-moz-placeholder {
+  color: #737373;
+  opacity: 1; }
+
+/* line 58, E:/Projects/ops-invest/sass/all.scss */
+.form-control::-moz-placeholder {
+  color: #737373;
+  opacity: 1; }
+
+/* line 59, E:/Projects/ops-invest/sass/all.scss */
+.form-control::-webkit-input-placeholder {
+  color: #737373; }
+
+/* line 60, E:/Projects/ops-invest/sass/all.scss */
+.form-control:-ms-input-placeholder {
+  color: #737373; }
+
+/* line 61, E:/Projects/ops-invest/sass/all.scss */
+.form-control::-webkit-input-placeholder {
+  color: #737373; }
+.form-control::-moz-placeholder {
+  color: #737373; }
+.form-control:-ms-input-placeholder {
+  color: #737373; }
+.form-control::placeholder {
+  color: #737373; }
+
+/* line 62, E:/Projects/ops-invest/sass/all.scss */
+.form-control.placeholder {
+  color: #737373 !important; }
+
+/* line 63, E:/Projects/ops-invest/sass/all.scss */
+.form-control:focus:-moz-placeholder {
+  color: transparent; }
+
+/* line 64, E:/Projects/ops-invest/sass/all.scss */
+.form-control:focus::-moz-placeholder {
+  color: transparent; }
+
+/* line 65, E:/Projects/ops-invest/sass/all.scss */
+.form-control:focus::-webkit-input-placeholder {
+  color: transparent; }
+
+/* line 66, E:/Projects/ops-invest/sass/all.scss */
+.form-control:focus:-ms-input-placeholder {
+  color: transparent; }
+
+/* line 67, E:/Projects/ops-invest/sass/all.scss */
+.form-control:focus::-webkit-input-placeholder {
+  color: transparent; }
+.form-control:focus::-moz-placeholder {
+  color: transparent; }
+.form-control:focus:-ms-input-placeholder {
+  color: transparent; }
+.form-control:focus::placeholder {
+  color: transparent; }
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/* line 9, E:/Projects/ops-invest/sass/bootstrap/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 19, E:/Projects/ops-invest/sass/bootstrap/normalize */
+body {
+  margin: 0; }
+
+/* line 45, E:/Projects/ops-invest/sass/bootstrap/normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 57, E:/Projects/ops-invest/sass/bootstrap/normalize */
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 67, E:/Projects/ops-invest/sass/bootstrap/normalize */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 78, E:/Projects/ops-invest/sass/bootstrap/normalize */
+[hidden], template {
+  display: none; }
+
+/* line 89, E:/Projects/ops-invest/sass/bootstrap/normalize */
+a {
+  background-color: transparent; }
+
+/* line 98, E:/Projects/ops-invest/sass/bootstrap/normalize */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 109, E:/Projects/ops-invest/sass/bootstrap/normalize */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 118, E:/Projects/ops-invest/sass/bootstrap/normalize */
+b, strong {
+  font-weight: bold; }
+
+/* line 126, E:/Projects/ops-invest/sass/bootstrap/normalize */
+dfn {
+  font-style: italic; }
+
+/* line 135, E:/Projects/ops-invest/sass/bootstrap/normalize */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 144, E:/Projects/ops-invest/sass/bootstrap/normalize */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 153, E:/Projects/ops-invest/sass/bootstrap/normalize */
+small {
+  font-size: 80%; }
+
+/* line 162, E:/Projects/ops-invest/sass/bootstrap/normalize */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 169, E:/Projects/ops-invest/sass/bootstrap/normalize */
+sup {
+  top: -0.5em; }
+
+/* line 173, E:/Projects/ops-invest/sass/bootstrap/normalize */
+sub {
+  bottom: -0.25em; }
+
+/* line 184, E:/Projects/ops-invest/sass/bootstrap/normalize */
+img {
+  border: 0; }
+
+/* line 192, E:/Projects/ops-invest/sass/bootstrap/normalize */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 203, E:/Projects/ops-invest/sass/bootstrap/normalize */
+figure {
+  margin: 1em 40px; }
+
+/* line 211, E:/Projects/ops-invest/sass/bootstrap/normalize */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 221, E:/Projects/ops-invest/sass/bootstrap/normalize */
+pre {
+  overflow: auto; }
+
+/* line 232, E:/Projects/ops-invest/sass/bootstrap/normalize */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 256, E:/Projects/ops-invest/sass/bootstrap/normalize */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 266, E:/Projects/ops-invest/sass/bootstrap/normalize */
+button {
+  overflow: visible; }
+
+/* line 278, E:/Projects/ops-invest/sass/bootstrap/normalize */
+button, select {
+  text-transform: none; }
+
+/* line 293, E:/Projects/ops-invest/sass/bootstrap/normalize */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 303, E:/Projects/ops-invest/sass/bootstrap/normalize */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/* line 312, E:/Projects/ops-invest/sass/bootstrap/normalize */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 322, E:/Projects/ops-invest/sass/bootstrap/normalize */
+input {
+  line-height: normal; }
+
+/* line 335, E:/Projects/ops-invest/sass/bootstrap/normalize */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 347, E:/Projects/ops-invest/sass/bootstrap/normalize */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 357, E:/Projects/ops-invest/sass/bootstrap/normalize */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+/* line 371, E:/Projects/ops-invest/sass/bootstrap/normalize */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 379, E:/Projects/ops-invest/sass/bootstrap/normalize */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 390, E:/Projects/ops-invest/sass/bootstrap/normalize */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 399, E:/Projects/ops-invest/sass/bootstrap/normalize */
+textarea {
+  overflow: auto; }
+
+/* line 408, E:/Projects/ops-invest/sass/bootstrap/normalize */
+optgroup {
+  font-weight: bold; }
+
+/* line 419, E:/Projects/ops-invest/sass/bootstrap/normalize */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, E:/Projects/ops-invest/sass/bootstrap/normalize */
+td, th {
+  padding: 0; }
+
+/* line 11, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+* {
+  box-sizing: border-box; }
+
+/* line 15, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+*:before, *:after {
+  box-sizing: border-box; }
+
+/* line 22, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/* line 27, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+body {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.428571429;
+  color: #000;
+  background-color: #fff; }
+
+/* line 39, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+/* line 48, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+a {
+  color: inherit;
+  text-decoration: none; }
+  /* line 53, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+  a:hover, a:focus {
+    color: inherit;
+    text-decoration: underline; }
+  /* line 58, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+  a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+
+/* line 69, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+figure {
+  margin: 0; }
+
+/* line 76, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+img {
+  vertical-align: middle; }
+
+/* line 81, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+/* line 86, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+.img-rounded {
+  border-radius: 6px; }
+
+/* line 93, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto; }
+
+/* line 106, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+.img-circle {
+  border-radius: 50%; }
+
+/* line 113, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+hr {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  border: 0;
+  border-top: 1px solid #eeeeee; }
+
+/* line 125, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+/* line 142, E:/Projects/ops-invest/sass/bootstrap/scaffolding */
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto; }
+
+/* line 10, E:/Projects/ops-invest/sass/bootstrap/grid */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px; }
+  /* line 15, E:/Projects/ops-invest/sass/bootstrap/mixins/clearfix */
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  /* line 19, E:/Projects/ops-invest/sass/bootstrap/mixins/clearfix */
+  .container:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 974px; } }
+  @media (min-width: 1170px) {
+    .container {
+      width: 1152px; } }
+
+/* line 30, E:/Projects/ops-invest/sass/bootstrap/grid */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px; }
+  /* line 15, E:/Projects/ops-invest/sass/bootstrap/mixins/clearfix */
+  .container-fluid:before, .container-fluid:after {
+    content: " ";
+    display: table; }
+  /* line 19, E:/Projects/ops-invest/sass/bootstrap/mixins/clearfix */
+  .container-fluid:after {
+    clear: both; }
+
+/* line 39, E:/Projects/ops-invest/sass/bootstrap/grid */
+.row {
+  margin-left: -10px;
+  margin-right: -10px; }
+  /* line 15, E:/Projects/ops-invest/sass/bootstrap/mixins/clearfix */
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  /* line 19, E:/Projects/ops-invest/sass/bootstrap/mixins/clearfix */
+  .row:after {
+    clear: both; }
+
+/* line 10, E:/Projects/ops-invest/sass/bootstrap/forms */
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0; }
+
+/* line 20, E:/Projects/ops-invest/sass/bootstrap/forms */
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 28px;
+  font-size: 30px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5; }
+
+/* line 32, E:/Projects/ops-invest/sass/bootstrap/forms */
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold; }
+
+/* line 47, E:/Projects/ops-invest/sass/bootstrap/forms */
+input[type="search"] {
+  box-sizing: border-box; }
+
+/* line 53, E:/Projects/ops-invest/sass/bootstrap/forms */
+input[type="radio"], input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal; }
+
+/* line 60, E:/Projects/ops-invest/sass/bootstrap/forms */
+input[type="file"] {
+  display: block; }
+
+/* line 65, E:/Projects/ops-invest/sass/bootstrap/forms */
+input[type="range"] {
+  display: block;
+  width: 100%; }
+
+/* line 72, E:/Projects/ops-invest/sass/bootstrap/forms */
+select[multiple], select[size] {
+  height: auto; }
+
+/* line 79, E:/Projects/ops-invest/sass/bootstrap/forms */
+input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+
+/* line 84, E:/Projects/ops-invest/sass/bootstrap/forms */
+output {
+  display: block;
+  padding-top: 11px;
+  font-size: 20px;
+  line-height: 1.428571429;
+  color: #737373; }
+
+/* line 115, E:/Projects/ops-invest/sass/bootstrap/forms */
+.form-control {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 20px;
+  line-height: 1.428571429;
+  color: #737373;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
+  /* line 56, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+  .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+  /* line 103, E:/Projects/ops-invest/sass/bootstrap/mixins/vendor-prefixes */
+  .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1; }
+  /* line 107, E:/Projects/ops-invest/sass/bootstrap/mixins/vendor-prefixes */
+  .form-control:-ms-input-placeholder {
+    color: #999; }
+  /* line 108, E:/Projects/ops-invest/sass/bootstrap/mixins/vendor-prefixes */
+  .form-control::-webkit-input-placeholder {
+    color: #999; }
+  /* line 144, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    opacity: 1; }
+
+/* line 154, E:/Projects/ops-invest/sass/bootstrap/forms */
+textarea.form-control {
+  height: auto; }
+
+/* line 166, E:/Projects/ops-invest/sass/bootstrap/forms */
+input[type="search"] {
+  -webkit-appearance: none; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 182, E:/Projects/ops-invest/sass/bootstrap/forms */
+  input[type="date"], input[type="time"], input[type="datetime-local"], input[type="month"] {
+    line-height: 50px; }
+
+  /* line 188, E:/Projects/ops-invest/sass/bootstrap/forms */
+  input[type="date"].input-sm, .input-group-sm > input[type="date"].form-control, .input-group-sm > input[type="date"].input-group-addon, .input-group-sm > .input-group-btn > input[type="date"].btn, .input-group-sm > .input-group-btn > input[type="date"].btn-embossed, input[type="time"].input-sm, .input-group-sm > input[type="time"].form-control, .input-group-sm > input[type="time"].input-group-addon, .input-group-sm > .input-group-btn > input[type="time"].btn, .input-group-sm > .input-group-btn > input[type="time"].btn-embossed, input[type="datetime-local"].input-sm, .input-group-sm > input[type="datetime-local"].form-control, .input-group-sm > input[type="datetime-local"].input-group-addon, .input-group-sm > .input-group-btn > input[type="datetime-local"].btn, .input-group-sm > .input-group-btn > input[type="datetime-local"].btn-embossed, input[type="month"].input-sm, .input-group-sm > input[type="month"].form-control, .input-group-sm > input[type="month"].input-group-addon, .input-group-sm > .input-group-btn > input[type="month"].btn, .input-group-sm > .input-group-btn > input[type="month"].btn-embossed {
+    line-height: 37px; }
+
+  /* line 194, E:/Projects/ops-invest/sass/bootstrap/forms */
+  input[type="date"].input-lg, .input-group-lg > input[type="date"].form-control, .input-group-lg > input[type="date"].input-group-addon, .input-group-lg > .input-group-btn > input[type="date"].btn, .input-group-lg > .input-group-btn > input[type="date"].btn-embossed, input[type="time"].input-lg, .input-group-lg > input[type="time"].form-control, .input-group-lg > input[type="time"].input-group-addon, .input-group-lg > .input-group-btn > input[type="time"].btn, .input-group-lg > .input-group-btn > input[type="time"].btn-embossed, input[type="datetime-local"].input-lg, .input-group-lg > input[type="datetime-local"].form-control, .input-group-lg > input[type="datetime-local"].input-group-addon, .input-group-lg > .input-group-btn > input[type="datetime-local"].btn, .input-group-lg > .input-group-btn > input[type="datetime-local"].btn-embossed, input[type="month"].input-lg, .input-group-lg > input[type="month"].form-control, .input-group-lg > input[type="month"].input-group-addon, .input-group-lg > .input-group-btn > input[type="month"].btn, .input-group-lg > .input-group-btn > input[type="month"].btn-embossed {
+    line-height: 56px; }
+ }
+
+/* line 205, E:/Projects/ops-invest/sass/bootstrap/forms */
+.form-group {
+  margin-bottom: 15px; }
+
+/* line 215, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio, .checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px; }
+  /* line 222, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .radio label, .checkbox label {
+    min-height: 28px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer; }
+  /* line 229, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .radio .icons, .checkbox .icons {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    text-align: center;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: block; }
+    /* line 239, E:/Projects/ops-invest/sass/bootstrap/forms */
+    .radio .icons .first-icon, .radio .icons .second-icon, .checkbox .icons .first-icon, .checkbox .icons .second-icon {
+      height: 20px;
+      width: 20px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 1;
+      filter: alpha(opacity=100);
+      border: 1px solid #ededed;
+      background: #fff;
+      border-radius: 4px; }
+      /* line 250, E:/Projects/ops-invest/sass/bootstrap/forms */
+      .radio .icons .first-icon:before, .radio .icons .second-icon:before, .checkbox .icons .first-icon:before, .checkbox .icons .second-icon:before {
+        line-height: 20px;
+        color: transparent;
+        background: transparent; }
+  /* line 260, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .radio.checked .second-icon:before, .radio.disabled .second-icon:before, .checkbox.checked .second-icon:before, .checkbox.disabled .second-icon:before {
+    width: 100%;
+    height: 100%;
+    color: #02baf2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block; }
+  /* line 279, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .radio.checked .second-icon:before, .checkbox.checked .second-icon:before {
+    color: #02baf2; }
+  /* line 286, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .radio.checked.disabled .second-icon:before, .checkbox.checked.disabled .second-icon:before {
+    color: #93a4aa; }
+  /* line 294, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .radio.disabled .second-icon, .checkbox.disabled .second-icon {
+    cursor: auto; }
+    /* line 296, E:/Projects/ops-invest/sass/bootstrap/forms */
+    .radio.disabled .second-icon:before, .checkbox.disabled .second-icon:before {
+      background: transparent;
+      color: transparent; }
+
+/* line 306, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio .icons .first-icon, .radio .icons .second-icon {
+  border-radius: 100%; }
+  /* line 308, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .radio .icons .first-icon:before, .radio .icons .second-icon:before {
+    content: "";
+    left: 50%;
+    top: 50%;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    margin-left: -4px; }
+/* line 321, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio.checked .second-icon:before {
+  background: #02baf2;
+  border-radius: 100%; }
+/* line 328, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio.disabled .second-icon:before {
+  background: transparent;
+  color: transparent; }
+/* line 335, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio.disabled.checked .second-icon:before {
+  background: #93a4aa;
+  color: #93a4aa; }
+
+/* line 345, E:/Projects/ops-invest/sass/bootstrap/forms */
+.checkbox.checked .second-icon:before {
+  border-radius: 2px; }
+
+/* line 355, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+  display: none;
+  outline: none !important; }
+
+/* line 361, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio + .radio, .checkbox + .checkbox {
+  margin-top: -5px; }
+
+/* line 367, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio-inline, .checkbox-inline {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer; }
+
+/* line 376, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px; }
+
+/* line 389, E:/Projects/ops-invest/sass/bootstrap/forms */
+input[type="radio"][disabled], input[type="radio"].disabled, fieldset[disabled] input[type="radio"], input[type="checkbox"][disabled], input[type="checkbox"].disabled, fieldset[disabled] input[type="checkbox"] {
+  cursor: not-allowed; }
+
+/* line 397, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio-inline.disabled, fieldset[disabled] .radio-inline, .checkbox-inline.disabled, fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed; }
+
+/* line 406, E:/Projects/ops-invest/sass/bootstrap/forms */
+.radio.disabled label, fieldset[disabled] .radio label, .checkbox.disabled label, fieldset[disabled] .checkbox label {
+  cursor: not-allowed; }
+
+/* line 415, E:/Projects/ops-invest/sass/bootstrap/forms */
+.form-inline .radio .icons, .form-inline .checkbox .icons {
+  top: 0; }
+
+/* line 426, E:/Projects/ops-invest/sass/bootstrap/forms */
+select option:first-child, .select option:first-child {
+  display: none; }
+/* line 432, E:/Projects/ops-invest/sass/bootstrap/forms */
+select .dropdown-menu li:first-child, .select .dropdown-menu li:first-child {
+  display: none; }
+
+/* line 438, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select {
+  position: relative;
+  margin-bottom: 0;
+  padding: 0;
+  border: none; }
+
+/* line 444, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select > .dropdown-toggle {
+  width: 100%;
+  padding-right: 25px; }
+
+/* line 448, E:/Projects/ops-invest/sass/bootstrap/forms */
+.error .select .dropdown-toggle {
+  border: 1px solid #b94a48; }
+
+/* line 451, E:/Projects/ops-invest/sass/bootstrap/forms */
+.control-group.error .select .dropdown-toggle {
+  border-color: #b94a48; }
+
+/* line 454, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.fit-width {
+  width: auto !important; }
+
+/* line 457, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select > .disabled {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  opacity: 1;
+  color: #777777; }
+
+/* line 463, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select > .disabled:focus {
+  border-color: #ededed;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  outline: none !important; }
+
+/* line 468, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .filter-option {
+  float: left;
+  text-align: left; }
+
+/* line 472, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .caret {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  margin-top: -2px;
+  vertical-align: middle; }
+
+/* line 479, E:/Projects/ops-invest/sass/bootstrap/forms */
+.special {
+  font-style: italic;
+  color: #bc0000 !important;
+  background: #666 !important; }
+
+/* line 484, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu {
+  min-width: 100%;
+  background-color: #fff;
+  border: 1px solid #ededed;
+  border-radius: 4px; }
+
+/* line 490, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu.inner {
+  position: static;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none; }
+
+/* line 498, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu li {
+  position: relative; }
+  /* line 501, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .select .dropdown-menu li.selected a {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    background-color: #02baf2; }
+
+/* line 511, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu li:not(.disabled) a:hover small, .select .dropdown-menu li:not(.disabled) a:focus small, .select .dropdown-menu li.active:not(.disabled) a small {
+  color: #64b1d8;
+  color: rgba(100, 177, 216, 0.4); }
+
+/* line 515, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu li.disabled a {
+  cursor: not-allowed;
+  color: #777777; }
+
+/* line 519, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu li a {
+  cursor: pointer;
+  outline: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  line-height: 1.428571429;
+  color: #737373;
+  white-space: normal; }
+
+/* line 528, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu li a.opt {
+  position: relative;
+  padding-left: 2.25em; }
+
+/* line 532, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu li a span.check-mark {
+  display: none; }
+
+/* line 535, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu li a span.text {
+  display: inline-block; }
+
+/* line 538, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu li small {
+  padding-left: 0.5em; }
+
+/* line 541, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .dropdown-menu .notify {
+  position: absolute;
+  bottom: 5px;
+  width: 96%;
+  margin: 0 2%;
+  min-height: 26px;
+  padding: 3px 5px;
+  background: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  pointer-events: none;
+  opacity: 0.9;
+  box-sizing: border-box; }
+
+/* line 555, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select .no-results {
+  padding: 3px;
+  background: #f5f5f5;
+  margin: 0 5px; }
+
+/* line 560, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.fit-width .filter-option {
+  position: static; }
+
+/* line 563, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.fit-width .caret {
+  position: static;
+  top: auto;
+  margin-top: -1px; }
+
+/* line 568, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.show-tick .dropdown-menu li.selected a span.check-mark {
+  position: absolute;
+  display: inline-block;
+  right: 15px;
+  margin-top: 5px; }
+
+/* line 574, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.show-tick .dropdown-menu li a span.text {
+  margin-right: 34px; }
+
+/* line 577, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.show-menu-arrow.open > .btn, .select.show-menu-arrow.open > .btn-embossed {
+  z-index: 1036; }
+
+/* line 580, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.show-menu-arrow .dropdown-toggle:before {
+  content: '';
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom-width: 7px;
+  border-bottom-style: solid;
+  border-bottom-color: #cccccc;
+  border-bottom-color: rgba(204, 204, 204, 0.2);
+  position: absolute;
+  bottom: -4px;
+  left: 9px;
+  display: none; }
+
+/* line 593, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.show-menu-arrow .dropdown-toggle:after {
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+  position: absolute;
+  bottom: -4px;
+  left: 10px;
+  display: none; }
+
+/* line 603, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.show-menu-arrow.dropup .dropdown-toggle:before {
+  bottom: auto;
+  top: -3px;
+  border-bottom: 0;
+  border-top-width: 7px;
+  border-top-style: solid;
+  border-top-color: #cccccc;
+  border-top-color: rgba(204, 204, 204, 0.2); }
+
+/* line 612, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.show-menu-arrow.dropup .dropdown-toggle:after {
+  bottom: auto;
+  top: -3px;
+  border-top: 6px solid white;
+  border-bottom: 0; }
+
+/* line 618, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.show-menu-arrow.pull-right .dropdown-toggle:before {
+  right: 12px;
+  left: auto; }
+
+/* line 622, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.show-menu-arrow.pull-right .dropdown-toggle:after {
+  right: 13px;
+  left: auto; }
+
+/* line 627, E:/Projects/ops-invest/sass/bootstrap/forms */
+.select.show-menu-arrow.open > .dropdown-toggle:before, .select.show-menu-arrow.open > .dropdown-toggle:after {
+  display: block; }
+
+/* line 631, E:/Projects/ops-invest/sass/bootstrap/forms */
+.bs-searchbox, .bs-actionsbox {
+  padding: 4px 8px; }
+
+/* line 634, E:/Projects/ops-invest/sass/bootstrap/forms */
+.bs-actionsbox {
+  float: left;
+  width: 100%;
+  box-sizing: border-box; }
+
+/* line 639, E:/Projects/ops-invest/sass/bootstrap/forms */
+.bs-actionsbox button {
+  width: 50%; }
+
+/* line 642, E:/Projects/ops-invest/sass/bootstrap/forms */
+.bs-searchbox + .bs-actionsbox {
+  padding: 0 8px 4px; }
+
+/* line 645, E:/Projects/ops-invest/sass/bootstrap/forms */
+.bs-searchbox input.form-control {
+  margin-bottom: 0;
+  width: 100%; }
+
+/* line 649, E:/Projects/ops-invest/sass/bootstrap/forms */
+.mobile-device {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block !important;
+  width: 100%;
+  height: 100% !important;
+  opacity: 0; }
+
+/* line 666, E:/Projects/ops-invest/sass/bootstrap/forms */
+.form-control-static {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: 0; }
+  /* line 674, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-control-static.input-lg, .input-group-lg > .form-control-static.form-control, .input-group-lg > .form-control-static.input-group-addon, .input-group-lg > .input-group-btn > .form-control-static.btn, .input-group-lg > .input-group-btn > .form-control-static.btn-embossed, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control, .input-group-sm > .form-control-static.input-group-addon, .input-group-sm > .input-group-btn > .form-control-static.btn, .input-group-sm > .input-group-btn > .form-control-static.btn-embossed {
+    padding-left: 0;
+    padding-right: 0; }
+
+/* line 70, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.input-sm, .input-group-sm > .form-control, .input-group-sm > .input-group-addon, .input-group-sm > .input-group-btn > .btn, .input-group-sm > .input-group-btn > .btn-embossed, .form-group-sm .form-control {
+  height: 37px;
+  padding: 5px 10px;
+  font-size: 17px;
+  line-height: 1.5;
+  border-radius: 3px; }
+
+/* line 78, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+select.input-sm, .input-group-sm > select.form-control, .input-group-sm > select.input-group-addon, .input-group-sm > .input-group-btn > select.btn, .input-group-sm > .input-group-btn > select.btn-embossed, .form-group-sm .form-control {
+  height: 37px;
+  line-height: 37px; }
+
+/* line 83, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+textarea.input-sm, .input-group-sm > textarea.form-control, .input-group-sm > textarea.input-group-addon, .input-group-sm > .input-group-btn > textarea.btn, .input-group-sm > .input-group-btn > textarea.btn-embossed, .form-group-sm .form-control, select[multiple].input-sm, .input-group-sm > select[multiple].form-control, .input-group-sm > select[multiple].input-group-addon, .input-group-sm > .input-group-btn > select[multiple].btn, .input-group-sm > .input-group-btn > select[multiple].btn-embossed, .form-group-sm .form-control {
+  height: auto; }
+
+/* line 70, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.input-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn, .input-group-lg > .input-group-btn > .btn-embossed, .form-group-lg .form-control {
+  height: 56px;
+  padding: 10px 16px;
+  font-size: 25px;
+  line-height: 1.33;
+  border-radius: 6px; }
+
+/* line 78, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+select.input-lg, .input-group-lg > select.form-control, .input-group-lg > select.input-group-addon, .input-group-lg > .input-group-btn > select.btn, .input-group-lg > .input-group-btn > select.btn-embossed, .form-group-lg .form-control {
+  height: 56px;
+  line-height: 56px; }
+
+/* line 83, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > textarea.input-group-addon, .input-group-lg > .input-group-btn > textarea.btn, .input-group-lg > .input-group-btn > textarea.btn-embossed, .form-group-lg .form-control, select[multiple].input-lg, .input-group-lg > select[multiple].form-control, .input-group-lg > select[multiple].input-group-addon, .input-group-lg > .input-group-btn > select[multiple].btn, .input-group-lg > .input-group-btn > select[multiple].btn-embossed, .form-group-lg .form-control {
+  height: auto; }
+
+/* line 695, E:/Projects/ops-invest/sass/bootstrap/forms */
+.has-feedback {
+  position: relative; }
+  /* line 700, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .has-feedback .form-control {
+    padding-right: 62.5px; }
+
+/* line 705, E:/Projects/ops-invest/sass/bootstrap/forms */
+.form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  pointer-events: none; }
+
+/* line 717, E:/Projects/ops-invest/sass/bootstrap/forms */
+.input-lg + .form-control-feedback, .input-group-lg > .form-control + .form-control-feedback, .input-group-lg > .input-group-addon + .form-control-feedback, .input-group-lg > .input-group-btn > .btn + .form-control-feedback, .input-group-lg > .input-group-btn > .btn-embossed + .form-control-feedback {
+  width: 56px;
+  height: 56px;
+  line-height: 56px; }
+
+/* line 722, E:/Projects/ops-invest/sass/bootstrap/forms */
+.input-sm + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback, .input-group-sm > .input-group-addon + .form-control-feedback, .input-group-sm > .input-group-btn > .btn + .form-control-feedback, .input-group-sm > .input-group-btn > .btn-embossed + .form-control-feedback {
+  width: 37px;
+  height: 37px;
+  line-height: 37px; }
+
+/* line 17, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
+  color: #3c763d; }
+/* line 21, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-success .form-control {
+  border-color: #3c763d;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 24, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+  .has-success .form-control:focus {
+    border-color: #2b542c;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168; }
+/* line 31, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-success .input-group-addon {
+  color: #3c763d;
+  border-color: #3c763d;
+  background-color: #dff0d8; }
+/* line 37, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-success .form-control-feedback {
+  color: #3c763d; }
+
+/* line 17, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-warning .help-block, .has-warning .control-label, .has-warning .radio, .has-warning .checkbox, .has-warning .radio-inline, .has-warning .checkbox-inline, .has-warning.radio label, .has-warning.checkbox label, .has-warning.radio-inline label, .has-warning.checkbox-inline label {
+  color: #8a6d3b; }
+/* line 21, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-warning .form-control {
+  border-color: #8a6d3b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 24, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+  .has-warning .form-control:focus {
+    border-color: #66512c;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b; }
+/* line 31, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-warning .input-group-addon {
+  color: #8a6d3b;
+  border-color: #8a6d3b;
+  background-color: #fcf8e3; }
+/* line 37, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-warning .form-control-feedback {
+  color: #8a6d3b; }
+
+/* line 17, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+  color: #a94442; }
+/* line 21, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-error .form-control {
+  border-color: #a94442;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 24, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+  .has-error .form-control:focus {
+    border-color: #843534;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
+/* line 31, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-error .input-group-addon {
+  color: #a94442;
+  border-color: #a94442;
+  background-color: #f2dede; }
+/* line 37, E:/Projects/ops-invest/sass/bootstrap/mixins/forms */
+.has-error .form-control-feedback {
+  color: #a94442; }
+
+/* line 742, E:/Projects/ops-invest/sass/bootstrap/forms */
+.has-feedback label ~ .form-control-feedback {
+  top: 33px; }
+/* line 745, E:/Projects/ops-invest/sass/bootstrap/forms */
+.has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0; }
+
+/* line 756, E:/Projects/ops-invest/sass/bootstrap/forms */
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #404040; }
+
+@media (min-width: 768px) {
+  /* line 781, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-inline .form-group {
+    width: auto;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle; }
+
+  /* line 789, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle; }
+
+  /* line 796, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-inline .form-control-static {
+    display: inline-block; }
+
+  /* line 800, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-inline .input-group {
+    display: inline-table;
+    vertical-align: middle; }
+
+  /* line 812, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-inline .input-group > .form-control {
+    width: 100%; }
+
+  /* line 816, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle; }
+
+  /* line 825, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-inline .radio, .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle; }
+    /* line 831, E:/Projects/ops-invest/sass/bootstrap/forms */
+    .form-inline .radio label, .form-inline .checkbox label {
+      padding-left: 0; }
+
+  /* line 836, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-inline .radio input[type="radio"], .form-inline .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0; }
+
+  /* line 842, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-inline .has-feedback .form-control-feedback {
+    top: 0; }
+ }
+
+/* line 867, E:/Projects/ops-invest/sass/bootstrap/forms */
+.form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 11px; }
+/* line 875, E:/Projects/ops-invest/sass/bootstrap/forms */
+.form-horizontal .radio, .form-horizontal .checkbox {
+  min-height: 39px; }
+@media (min-width: 768px) {
+  /* line 887, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 11px; }
+ }
+/* line 898, E:/Projects/ops-invest/sass/bootstrap/forms */
+.form-horizontal .has-feedback .form-control-feedback {
+  right: 10px; }
+@media (min-width: 768px) {
+  /* line 908, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-horizontal .form-group-lg .control-label {
+    padding-top: 14.3px; }
+ }
+@media (min-width: 768px) {
+  /* line 915, E:/Projects/ops-invest/sass/bootstrap/forms */
+  .form-horizontal .form-group-sm .control-label {
+    padding-top: 6px; }
+ }
+
+/* line 9, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn, .btn-embossed {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  outline: none;
+  transition: border 0.1s linear, color 0.1s linear, background-color 0.1s linear;
+  padding: 10px 10px;
+  font-size: 20px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  /* line 30, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn:focus, .btn-embossed:focus, .btn.focus, .focus.btn-embossed, .btn:active:focus, .btn-embossed:active:focus, .btn:active.focus, .btn-embossed:active.focus, .btn.active:focus, .active.btn-embossed:focus, .btn.active.focus, .active.focus.btn-embossed {
+    outline: none; }
+  /* line 37, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn:hover, .btn-embossed:hover, .btn:focus, .btn-embossed:focus, .btn.focus, .focus.btn-embossed {
+    color: #737373;
+    text-decoration: none; }
+  /* line 43, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn:active, .btn-embossed:active, .btn.active, .active.btn-embossed {
+    outline: 0;
+    background-image: none;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+  /* line 51, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn.disabled, .disabled.btn-embossed, .btn[disabled], [disabled].btn-embossed, fieldset[disabled] .btn, fieldset[disabled] .btn-embossed {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    box-shadow: none; }
+
+/* line 63, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-default {
+  color: #737373;
+  background-color: #fff;
+  border-color: #ededed; }
+  /* line 16, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+    color: #737373;
+    background-color: #e6e6e6;
+    border-color: lightgray; }
+  /* line 23, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+    background-image: none; }
+  /* line 34, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
+    background-color: #fff;
+    border-color: #ededed; }
+  /* line 40, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-default .badge {
+    color: #fff;
+    background-color: #737373; }
+
+/* line 66, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-primary {
+  color: #fff;
+  background-color: #02baf2;
+  border-color: #02a7d9; }
+  /* line 16, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0293bf;
+    border-color: #0180a6; }
+  /* line 23, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+    background-image: none; }
+  /* line 34, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+    background-color: #02baf2;
+    border-color: #02a7d9; }
+  /* line 40, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-primary .badge {
+    color: #02baf2;
+    background-color: #fff; }
+
+/* line 70, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-success {
+  color: #fff;
+  background-color: #3eb5ac;
+  border-color: #37a29a; }
+  /* line 16, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #318f88;
+    border-color: #2a7c76; }
+  /* line 23, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
+    background-image: none; }
+  /* line 34, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
+    background-color: #3eb5ac;
+    border-color: #37a29a; }
+  /* line 40, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-success .badge {
+    color: #3eb5ac;
+    background-color: #fff; }
+
+/* line 74, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-info {
+  color: #fff;
+  background-color: #d6e1e5;
+  border-color: #c6d6db; }
+  /* line 16, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #b7cad1;
+    border-color: #a7bfc7; }
+  /* line 23, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+    background-image: none; }
+  /* line 34, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
+    background-color: #d6e1e5;
+    border-color: #c6d6db; }
+  /* line 40, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-info .badge {
+    color: #d6e1e5;
+    background-color: #fff; }
+
+/* line 78, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-warning {
+  color: #fff;
+  background-color: #fad46b;
+  border-color: #f9cd52; }
+  /* line 16, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-warning:hover, .btn-warning:focus, .btn-warning.focus, .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
+    color: #fff;
+    background-color: #f8c63a;
+    border-color: #f8bf21; }
+  /* line 23, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
+    background-image: none; }
+  /* line 34, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
+    background-color: #fad46b;
+    border-color: #f9cd52; }
+  /* line 40, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-warning .badge {
+    color: #fad46b;
+    background-color: #fff; }
+
+/* line 82, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-danger {
+  color: #fff;
+  background-color: #f27669;
+  border-color: #f06152; }
+  /* line 16, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #ee4b3a;
+    border-color: #ec3623; }
+  /* line 23, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+    background-image: none; }
+  /* line 34, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
+    background-color: #f27669;
+    border-color: #f06152; }
+  /* line 40, E:/Projects/ops-invest/sass/bootstrap/mixins/buttons */
+  .btn-danger .badge {
+    color: #f27669;
+    background-color: #fff; }
+
+/* line 86, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-embossed {
+  border-color: transparent !important; }
+  /* line 90, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed:hover, .btn-embossed:focus {
+    top: 2px; }
+  /* line 94, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.active, .btn-embossed:active {
+    top: 5px; }
+  /* line 97, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-primary {
+    box-shadow: 0 5px #0180a6; }
+  /* line 101, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-primary:hover, .btn-embossed.btn-primary:focus {
+    box-shadow: 0 3px #0180a6; }
+  /* line 105, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-primary.active, .btn-embossed.btn-primary:active {
+    box-shadow: 0 0 #0180a6; }
+  /* line 108, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-danger {
+    box-shadow: 0 5px #ec3623; }
+  /* line 112, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-danger:hover, .btn-embossed.btn-danger:focus {
+    box-shadow: 0 3px #ec3623; }
+  /* line 116, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-danger.active, .btn-embossed.btn-danger:active {
+    box-shadow: 0 0 #ec3623; }
+  /* line 119, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-warning {
+    box-shadow: 0 5px #f8bf21; }
+  /* line 123, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-warning:hover, .btn-embossed.btn-warning:focus {
+    box-shadow: 0 3px #f8bf21; }
+  /* line 127, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-warning.active, .btn-embossed.btn-warning:active {
+    box-shadow: 0 0 #f8bf21; }
+  /* line 130, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-success {
+    box-shadow: 0 5px #2a7c76; }
+  /* line 134, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-success:hover, .btn-embossed.btn-success:focus {
+    box-shadow: 0 3px #2a7c76; }
+  /* line 138, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-success.active, .btn-embossed.btn-success:active {
+    box-shadow: 0 0 #2a7c76; }
+  /* line 141, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-info {
+    box-shadow: 0 5px #a7bfc7; }
+  /* line 145, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-info:hover, .btn-embossed.btn-info:focus {
+    box-shadow: 0 3px #a7bfc7; }
+  /* line 149, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-embossed.btn-info.active, .btn-embossed.btn-info:active {
+    box-shadow: 0 0 #a7bfc7; }
+
+/* line 159, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-link {
+  color: inherit;
+  font-weight: normal;
+  border-radius: 0; }
+  /* line 168, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
+    background-color: transparent;
+    box-shadow: none; }
+  /* line 175, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+    border-color: transparent; }
+  /* line 179, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-link:hover, .btn-link:focus {
+    color: inherit;
+    text-decoration: underline;
+    background-color: transparent; }
+  /* line 187, E:/Projects/ops-invest/sass/bootstrap/buttons */
+  .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
+    color: #777777;
+    text-decoration: none; }
+
+/* line 198, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 25px;
+  line-height: 1.33;
+  border-radius: 6px; }
+
+/* line 202, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 17px;
+  line-height: 1.5;
+  border-radius: 3px; }
+
+/* line 206, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-xs {
+  padding: 1px 5px;
+  font-size: 17px;
+  line-height: 1.5;
+  border-radius: 3px; }
+
+/* line 214, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-block {
+  display: block;
+  width: 100%; }
+
+/* line 220, E:/Projects/ops-invest/sass/bootstrap/buttons */
+.btn-block + .btn-block {
+  margin-top: 5px; }
+
+/* line 228, E:/Projects/ops-invest/sass/bootstrap/buttons */
+input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="button"].btn-block {
+  width: 100%; }
+
+/* line 10, E:/Projects/ops-invest/sass/bootstrap/component-animations */
+.fade {
+  opacity: 0;
+  transition: opacity 0.15s linear; }
+  /* line 13, E:/Projects/ops-invest/sass/bootstrap/component-animations */
+  .fade.in {
+    opacity: 1; }
+
+/* line 18, E:/Projects/ops-invest/sass/bootstrap/component-animations */
+.collapse {
+  display: none;
+  visibility: hidden; }
+  /* line 22, E:/Projects/ops-invest/sass/bootstrap/component-animations */
+  .collapse.in {
+    display: block;
+    visibility: visible; }
+
+/* line 27, E:/Projects/ops-invest/sass/bootstrap/component-animations */
+tr.collapse.in {
+  display: table-row; }
+
+/* line 29, E:/Projects/ops-invest/sass/bootstrap/component-animations */
+tbody.collapse.in {
+  display: table-row-group; }
+
+/* line 31, E:/Projects/ops-invest/sass/bootstrap/component-animations */
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition-property: height, visibility;
+  transition-duration: 0.35s;
+  transition-timing-function: ease; }
+
+/* line 7, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate; }
+  /* line 13, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+  .input-group[class*="col-"] {
+    float: none;
+    padding-left: 0;
+    padding-right: 0; }
+  /* line 19, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+  .input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    margin-bottom: 0; }
+
+/* line 56, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+.input-group-addon, .input-group-btn, .input-group .form-control {
+  display: table-cell; }
+  /* line 59, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+  .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child), .input-group .form-control:not(:first-child):not(:last-child) {
+    border-radius: 0; }
+
+/* line 65, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+.input-group-addon, .input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle; }
+
+/* line 73, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+.input-group-addon {
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1;
+  color: #737373;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #ededed;
+  border-radius: 4px; }
+  /* line 85, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+  .input-group-addon.input-sm, .input-group-sm > .input-group-addon, .input-group-sm > .input-group-btn > .input-group-addon.btn, .input-group-sm > .input-group-btn > .input-group-addon.btn-embossed {
+    padding: 5px 10px;
+    font-size: 17px;
+    border-radius: 3px; }
+  /* line 90, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+  .input-group-addon.input-lg, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .input-group-addon.btn, .input-group-lg > .input-group-btn > .input-group-addon.btn-embossed {
+    padding: 10px 16px;
+    font-size: 25px;
+    border-radius: 6px; }
+  /* line 98, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+  .input-group-addon input[type="radio"], .input-group-addon input[type="checkbox"] {
+    margin-top: 0; }
+
+/* line 110, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-embossed, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .btn-group > .btn-embossed, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-embossed:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, .input-group-btn:last-child > .btn-group:not(:last-child) > .btn-embossed {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
+
+/* line 113, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+.input-group-addon:first-child {
+  border-right: 0; }
+
+/* line 122, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-embossed, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .btn-group > .btn-embossed, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:first-child > .btn-embossed:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .input-group-btn:first-child > .btn-group:not(:first-child) > .btn-embossed {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
+
+/* line 125, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+.input-group-addon:last-child {
+  border-left: 0; }
+
+/* line 131, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+.input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap; }
+  /* line 140, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+  .input-group-btn > .btn, .input-group-btn > .btn-embossed {
+    position: relative; }
+    /* line 142, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+    .input-group-btn > .btn + .btn, .input-group-btn > .btn-embossed + .btn, .input-group-btn > .btn + .btn-embossed, .input-group-btn > .btn-embossed + .btn-embossed {
+      margin-left: -1px; }
+    /* line 148, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+    .input-group-btn > .btn:hover, .input-group-btn > .btn-embossed:hover, .input-group-btn > .btn:focus, .input-group-btn > .btn-embossed:focus, .input-group-btn > .btn:active, .input-group-btn > .btn-embossed:active {
+      z-index: 2; }
+  /* line 156, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+  .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-embossed, .input-group-btn:first-child > .btn-group {
+    margin-right: -1px; }
+  /* line 162, E:/Projects/ops-invest/sass/bootstrap/input-groups */
+  .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-embossed, .input-group-btn:last-child > .btn-group {
+    margin-left: -1px; }
+
+/* line 9, E:/Projects/ops-invest/sass/bootstrap/alerts */
+.alert {
+  padding: 15px;
+  margin-bottom: 28px;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+  /* line 16, E:/Projects/ops-invest/sass/bootstrap/alerts */
+  .alert h4 {
+    margin-top: 0;
+    color: inherit; }
+  /* line 22, E:/Projects/ops-invest/sass/bootstrap/alerts */
+  .alert .alert-link {
+    font-weight: bold; }
+  /* line 28, E:/Projects/ops-invest/sass/bootstrap/alerts */
+  .alert > p, .alert > ul {
+    margin-bottom: 0; }
+  /* line 31, E:/Projects/ops-invest/sass/bootstrap/alerts */
+  .alert > p + p {
+    margin-top: 5px; }
+
+/* line 41, E:/Projects/ops-invest/sass/bootstrap/alerts */
+.alert-dismissable, .alert-dismissible {
+  padding-right: 35px; }
+  /* line 45, E:/Projects/ops-invest/sass/bootstrap/alerts */
+  .alert-dismissable .close, .alert-dismissible .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit; }
+
+/* line 57, E:/Projects/ops-invest/sass/bootstrap/alerts */
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d; }
+  /* line 8, E:/Projects/ops-invest/sass/bootstrap/mixins/alerts */
+  .alert-success hr {
+    border-top-color: #c9e2b3; }
+  /* line 11, E:/Projects/ops-invest/sass/bootstrap/mixins/alerts */
+  .alert-success .alert-link {
+    color: #2b542c; }
+
+/* line 60, E:/Projects/ops-invest/sass/bootstrap/alerts */
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f; }
+  /* line 8, E:/Projects/ops-invest/sass/bootstrap/mixins/alerts */
+  .alert-info hr {
+    border-top-color: #a6e1ec; }
+  /* line 11, E:/Projects/ops-invest/sass/bootstrap/mixins/alerts */
+  .alert-info .alert-link {
+    color: #245269; }
+
+/* line 63, E:/Projects/ops-invest/sass/bootstrap/alerts */
+.alert-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b; }
+  /* line 8, E:/Projects/ops-invest/sass/bootstrap/mixins/alerts */
+  .alert-warning hr {
+    border-top-color: #f7e1b5; }
+  /* line 11, E:/Projects/ops-invest/sass/bootstrap/mixins/alerts */
+  .alert-warning .alert-link {
+    color: #66512c; }
+
+/* line 66, E:/Projects/ops-invest/sass/bootstrap/alerts */
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442; }
+  /* line 8, E:/Projects/ops-invest/sass/bootstrap/mixins/alerts */
+  .alert-danger hr {
+    border-top-color: #e4b9c0; }
+  /* line 11, E:/Projects/ops-invest/sass/bootstrap/mixins/alerts */
+  .alert-danger .alert-link {
+    color: #843534; }
+
+/* line 72, E:/Projects/ops-invest/sass/all.scss */
+h1 {
+  font-size: 60px;
+  margin: 36px 0 20px; }
+  @media only screen and (max-width: 1024px) {
+    h1 {
+      font-size: 30px; } }
+
+/* line 80, E:/Projects/ops-invest/sass/all.scss */
+html {
+  height: 100%; }
+
+/* line 83, E:/Projects/ops-invest/sass/all.scss */
+body {
+  height: 100%;
+  display: table;
+  width: 100%; }
+
+/* line 90, E:/Projects/ops-invest/sass/all.scss */
+.footer {
+  display: table-row;
+  height: 1px; }
+
+/* line 94, E:/Projects/ops-invest/sass/all.scss */
+.navbar-form {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  /* line 99, E:/Projects/ops-invest/sass/all.scss */
+  .navbar-form {
+    width: 500px; }
+ }
+
+@media only screen and (max-width: 768px) {
+  .btn-list-group {
+    padding: 0 !important;
+    padding-left: 10px !important; } }
+
+/* line 111, E:/Projects/ops-invest/sass/all.scss */
+.box-header {
+  padding: 0 !important;
+  overflow: hidden;
+  color: #fff;
+  background: url(../images/bg-header-box.png) repeat-x;
+  background-size: contain;
+  z-index: 4 !important; }
+  /* line 118, E:/Projects/ops-invest/sass/all.scss */
+  .box-header .btn-transparent {
+    background: none;
+    color: #fff;
+    border: 2px solid; }
+    /* line 122, E:/Projects/ops-invest/sass/all.scss */
+    .box-header .btn-transparent:hover, .box-header .btn-transparent:focus {
+      color: #593156;
+      background: #fff;
+      border-color: #fff; }
+  /* line 128, E:/Projects/ops-invest/sass/all.scss */
+  .box-header h1 {
+    line-height: 1; }
+    /* line 130, E:/Projects/ops-invest/sass/all.scss */
+    .box-header h1 span {
+      background: #fff;
+      color: #7f3758;
+      font-weight: normal;
+      display: inline-block;
+      position: relative;
+      margin: 10px 70px;
+      padding: 5px 0; }
+      /* line 138, E:/Projects/ops-invest/sass/all.scss */
+      .box-header h1 span:before {
+        content: "";
+        position: absolute;
+        left: -70px;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 70px solid #fff;
+        border-left: 70px solid transparent; }
+      /* line 148, E:/Projects/ops-invest/sass/all.scss */
+      .box-header h1 span:after {
+        position: absolute;
+        top: 0;
+        right: -70px;
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: 70px solid #fff;
+        border-right: 70px solid transparent; }
+    @media only screen and (max-width: 1024px) {
+      /* line 160, E:/Projects/ops-invest/sass/all.scss */
+      .box-header h1 span {
+        font-size: 23px;
+        margin: 0 26px; }
+        /* line 163, E:/Projects/ops-invest/sass/all.scss */
+        .box-header h1 span:before {
+          left: -33px;
+          border-width: 33px; }
+        /* line 167, E:/Projects/ops-invest/sass/all.scss */
+        .box-header h1 span:after {
+          right: -33px;
+          border-width: 33px; }
+ }
+  /* line 174, E:/Projects/ops-invest/sass/all.scss */
+  .box-header .img-header {
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    width: auto;
+    left: 0;
+    z-index: -1;
+    margin: auto; }
+    @media only screen and (max-width: 1024px) {
+      .box-header .img-header {
+        opacity: 0.9; } }
+    @media only screen and (max-width: 768px) {
+      .box-header .img-header {
+        opacity: 0.1; } }
+    @media only screen and (max-width: 480px) {
+      .box-header .img-header {
+        display: none; } }
+
+/* line 197, E:/Projects/ops-invest/sass/all.scss */
+.list-header {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  /* line 202, E:/Projects/ops-invest/sass/all.scss */
+  .list-header .title, .list-header .title-md {
+    display: block;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: bold; }
+    @media only screen and (max-width: 1024px) {
+      .list-header .title, .list-header .title-md {
+        font-size: 18px; } }
+  /* line 211, E:/Projects/ops-invest/sass/all.scss */
+  .list-header .text-list {
+    overflow: hidden; }
+  /* line 214, E:/Projects/ops-invest/sass/all.scss */
+  .list-header .title-md {
+    font-size: 60px; }
+    /* line 216, E:/Projects/ops-invest/sass/all.scss */
+    .list-header .title-md small {
+      font-size: 28px; }
+  @media only screen and (max-width: 1024px) {
+    .list-header {
+      font-size: 15px; }
+      /* line 221, E:/Projects/ops-invest/sass/all.scss */
+      .list-header .title-md {
+        font-size: 30px; }
+        /* line 223, E:/Projects/ops-invest/sass/all.scss */
+        .list-header .title-md small {
+          font-size: 15px;
+          font-weight: normal;
+          display: block; } }
+  /* line 231, E:/Projects/ops-invest/sass/all.scss */
+  .list-header .btn, .list-header .btn-embossed {
+    margin: 20px 0; }
+  /* line 234, E:/Projects/ops-invest/sass/all.scss */
+  .list-header i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px; }
+  /* line 240, E:/Projects/ops-invest/sass/all.scss */
+  .list-header li {
+    position: relative;
+    padding-left: 70px;
+    margin-bottom: 35px; }
+    @media only screen and (max-width: 768px) {
+      .list-header li {
+        margin-bottom: 30px; } }
+  /* line 248, E:/Projects/ops-invest/sass/all.scss */
+  .list-header a {
+    text-decoration: underline; }
+
+/* line 252, E:/Projects/ops-invest/sass/all.scss */
+*[class*=ico-] {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center; }
+  /* line 256, E:/Projects/ops-invest/sass/all.scss */
+  *[class*=ico-]:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/icons.png) no-repeat; }
+
+/* line 264, E:/Projects/ops-invest/sass/all.scss */
+.ico-1:before {
+  background-position: 0 0;
+  width: 50px;
+  height: 47px; }
+
+/* line 271, E:/Projects/ops-invest/sass/all.scss */
+.ico-2:before {
+  background-position: -100px 0;
+  width: 40px;
+  height: 42px; }
+
+/* line 278, E:/Projects/ops-invest/sass/all.scss */
+.ico-3:before {
+  background-position: -200px 0;
+  width: 41px;
+  height: 43px; }
+
+/* line 285, E:/Projects/ops-invest/sass/all.scss */
+.ico-4:before {
+  background-position: -300px 0;
+  width: 37px;
+  height: 43px; }
+
+/* line 292, E:/Projects/ops-invest/sass/all.scss */
+.btn, .btn-embossed {
+  min-width: 280px; }
+  @media only screen and (max-width: 768px) {
+    .btn, .btn-embossed {
+      min-width: 270px; } }
+  @media only screen and (max-width: 480px) {
+    .btn, .btn-embossed {
+      min-width: 0; } }
+
+/* line 301, E:/Projects/ops-invest/sass/all.scss */
+.btn-transparent {
+  background: none;
+  color: #fff;
+  border: 2px solid; }
+  /* line 305, E:/Projects/ops-invest/sass/all.scss */
+  .btn-transparent:hover, .btn-transparent:focus {
+    color: #000;
+    background: #fff;
+    border-color: #fff; }
+
+/* line 311, E:/Projects/ops-invest/sass/all.scss */
+.header-block {
+  border-left: 14px solid #523055;
+  margin: 10px 0;
+  padding-left: 20px; }
+  /* line 315, E:/Projects/ops-invest/sass/all.scss */
+  .header-block.pull-right {
+    float: none;
+    text-align: right;
+    border-left: none;
+    padding-left: 0;
+    padding-right: 20px;
+    border-right: 14px solid #523055; }
+    @media only screen and (max-width: 768px) {
+      .header-block.pull-right {
+        border-left: 14px solid #523055;
+        padding-left: 20px;
+        border-right: none;
+        padding-right: 0;
+        text-align: left; } }
+
+/* line 331, E:/Projects/ops-invest/sass/all.scss */
+h3 {
+  margin: 0;
+  line-height: 1;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase; }
+  /* line 337, E:/Projects/ops-invest/sass/all.scss */
+  h3 > span {
+    display: block;
+    color: #a63c5a; }
+  @media only screen and (max-width: 1024px) {
+    h3 {
+      font-size: 24px; } }
+
+/**/
+/* line 347, E:/Projects/ops-invest/sass/all.scss */
+.main {
+  overflow: hidden; }
+
+/* line 350, E:/Projects/ops-invest/sass/all.scss */
+.main > *[class*=box-] {
+  position: relative;
+  z-index: 2;
+  padding: 100px 0 75px; }
+  /* line 354, E:/Projects/ops-invest/sass/all.scss */
+  .main > *[class*=box-]:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -ms-transform: rotate(-16deg);
+    -webkit-transform: rotate(-16deg);
+            transform: rotate(-16deg);
+    z-index: -1;
+    margin: 0 -9999px;
+    padding: 0 9999px; }
+
+/**/
+@media only screen and (max-width: 768px) {
+  .box-interesting {
+    padding-top: 30px !important; } }
+/* line 377, E:/Projects/ops-invest/sass/all.scss */
+.box-interesting:before {
+  top: 26% !important;
+  background: #ffe030; }
+
+/* line 382, E:/Projects/ops-invest/sass/all.scss */
+.box-condition {
+  color: #fff;
+  padding: 30px 0 117px !important; }
+  /* line 385, E:/Projects/ops-invest/sass/all.scss */
+  .box-condition:before {
+    background: #777 url(../images/img-box-condition.jpg) 50% 50% repeat; }
+  @media only screen and (max-width: 768px) {
+    .box-condition {
+      padding: 130px 0 30px !important; } }
+  @media only screen and (max-width: 480px) {
+    .box-condition {
+      padding: 94px 0 0px !important; } }
+  /* line 394, E:/Projects/ops-invest/sass/all.scss */
+  .box-condition .header-block {
+    border-color: #aa3d5a !important; }
+
+/* line 398, E:/Projects/ops-invest/sass/all.scss */
+.sun-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; }
+  @media only screen and (max-width: 768px) {
+    .sun-img {
+      display: none; } }
+
+/* line 409, E:/Projects/ops-invest/sass/all.scss */
+.box-additional {
+  padding: 220px 0 55px !important; }
+  @media only screen and (max-width: 768px) {
+    .box-additional {
+      min-height: 800px;
+      padding: 130px 0 30px !important; } }
+  @media only screen and (max-width: 480px) {
+    .box-additional {
+      padding: 70px 0 30px !important; } }
+
+/* line 420, E:/Projects/ops-invest/sass/all.scss */
+.box-we {
+  background: #e8edf0;
+  padding: 62px 0 !important;
+  text-align: center; }
+
+/* line 425, E:/Projects/ops-invest/sass/all.scss */
+.box-form {
+  text-align: center;
+  background: #879ba7;
+  padding: 20px 0 !important; }
+
+/* line 432, E:/Projects/ops-invest/sass/all.scss */
+.list-interesting {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center; }
+  @media only screen and (max-width: 1024px) {
+    .list-interesting {
+      font-size: 18px; } }
+  /* line 441, E:/Projects/ops-invest/sass/all.scss */
+  .list-interesting > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    /* line 445, E:/Projects/ops-invest/sass/all.scss */
+    .list-interesting > ul > li {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      width: 49%;
+      margin-bottom: 18px;
+      text-align: left; }
+      /* line 452, E:/Projects/ops-invest/sass/all.scss */
+      .list-interesting > ul > li:nth-child(2n+1) {
+        margin-top: 80px; }
+      /* line 455, E:/Projects/ops-invest/sass/all.scss */
+      .list-interesting > ul > li i {
+        width: 90px;
+        min-width: 90px;
+        display: table-cell; }
+  @media only screen and (max-width: 768px) {
+    .list-interesting {
+      padding-top: 60px; }
+      /* line 465, E:/Projects/ops-invest/sass/all.scss */
+      .list-interesting > ul > li {
+        display: block;
+        width: 100%;
+        margin: 25px 0 !important; } }
+
+/* line 474, E:/Projects/ops-invest/sass/all.scss */
+.ico-5:before {
+  background-position: 0 -100px;
+  width: 40px;
+  height: 60px; }
+
+/* line 481, E:/Projects/ops-invest/sass/all.scss */
+.ico-6:before {
+  background-position: -100px -100px;
+  width: 58px;
+  height: 62px; }
+
+/* line 488, E:/Projects/ops-invest/sass/all.scss */
+.ico-7:before {
+  background-position: -200px -100px;
+  width: 45px;
+  height: 57px; }
+
+/* line 495, E:/Projects/ops-invest/sass/all.scss */
+.ico-8:before {
+  background-position: -300px -100px;
+  width: 38px;
+  height: 95px; }
+
+/* line 502, E:/Projects/ops-invest/sass/all.scss */
+.ico-9:before {
+  background-position: -400px -100px;
+  width: 68px;
+  height: 68px; }
+
+/* line 509, E:/Projects/ops-invest/sass/all.scss */
+.ico-10:before {
+  background-position: -500px -100px;
+  width: 50px;
+  height: 87px; }
+
+/* line 515, E:/Projects/ops-invest/sass/all.scss */
+.text-interesting {
+  display: table-cell;
+  vertical-align: middle; }
+
+/* line 520, E:/Projects/ops-invest/sass/all.scss */
+.title-pl {
+  margin: auto;
+  position: relative;
+  width: 270px;
+  height: 270px;
+  display: table;
+  font-weight: bold;
+  top: -82px; }
+  @media only screen and (max-width: 1024px) {
+    .title-pl {
+      top: -46px; } }
+  @media only screen and (max-width: 768px) {
+    .title-pl {
+      top: 66px; } }
+  /* line 534, E:/Projects/ops-invest/sass/all.scss */
+  .title-pl > span {
+    display: table-cell;
+    font-size: 40px;
+    line-height: 1;
+    color: #ffe030;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle; }
+    /* line 542, E:/Projects/ops-invest/sass/all.scss */
+    .title-pl > span > span {
+      display: block;
+      margin-top: 5px;
+      font-size: 20px; }
+  /* line 549, E:/Projects/ops-invest/sass/all.scss */
+  .title-pl:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    margin-left: -42px;
+    margin-top: -29px;
+    width: 385px;
+    height: 385px;
+    background: url(../images/img-poligon.png) no-repeat; }
+  @media only screen and (max-width: 768px) {
+    .title-pl {
+      width: 135px;
+      height: 135px; }
+      /* line 565, E:/Projects/ops-invest/sass/all.scss */
+      .title-pl > span {
+        font-size: 24px; }
+        /* line 567, E:/Projects/ops-invest/sass/all.scss */
+        .title-pl > span > span {
+          font-size: 14px; }
+      /* line 571, E:/Projects/ops-invest/sass/all.scss */
+      .title-pl:before {
+        width: 240px;
+        height: 240px;
+        background: url(../images/img-poligon.png) no-repeat;
+        background-size: contain; } }
+
+/* line 580, E:/Projects/ops-invest/sass/all.scss */
+.list-condition {
+  position: relative;
+  font-weight: bold;
+  min-height: 500px;
+  max-width: 700px;
+  margin: auto; }
+  /* line 586, E:/Projects/ops-invest/sass/all.scss */
+  .list-condition ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    /* line 593, E:/Projects/ops-invest/sass/all.scss */
+    .list-condition ul *[class*=link-] {
+      position: absolute; }
+    /* line 596, E:/Projects/ops-invest/sass/all.scss */
+    .list-condition ul .link-1 {
+      left: 30px;
+      top: 30px; }
+      /* line 599, E:/Projects/ops-invest/sass/all.scss */
+      .list-condition ul .link-1 img {
+        position: absolute;
+        top: -70px;
+        right: -155px; }
+    /* line 605, E:/Projects/ops-invest/sass/all.scss */
+    .list-condition ul .link-2 {
+      right: -63px;
+      top: 175px; }
+      /* line 608, E:/Projects/ops-invest/sass/all.scss */
+      .list-condition ul .link-2 img {
+        position: absolute;
+        top: -100px;
+        left: -100px; }
+    /* line 614, E:/Projects/ops-invest/sass/all.scss */
+    .list-condition ul .link-3 {
+      top: 300px;
+      left: 50px; }
+      /* line 617, E:/Projects/ops-invest/sass/all.scss */
+      .list-condition ul .link-3 img {
+        position: absolute;
+        right: -140px;
+        top: -110px; }
+    /* line 623, E:/Projects/ops-invest/sass/all.scss */
+    .list-condition ul .link-4 {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center; }
+    /* line 630, E:/Projects/ops-invest/sass/all.scss */
+    .list-condition ul a {
+      text-decoration: underline; }
+  @media only screen and (max-width: 768px) {
+    .list-condition {
+      padding: 40px 0; }
+      /* line 637, E:/Projects/ops-invest/sass/all.scss */
+      .list-condition ul li {
+        text-align: center;
+        margin: 10px 0 30px;
+        position: static !important; }
+        /* line 641, E:/Projects/ops-invest/sass/all.scss */
+        .list-condition ul li img {
+          display: none !important; }
+        /* line 644, E:/Projects/ops-invest/sass/all.scss */
+        .list-condition ul li.link-4 {
+          margin-top: 100px; } }
+
+/* line 652, E:/Projects/ops-invest/sass/all.scss */
+.img-additional-top {
+  position: absolute;
+  top: -80px;
+  right: 17%;
+  z-index: -1; }
+  @media only screen and (max-width: 768px) {
+    .img-additional-top {
+      width: 200px;
+      height: auto;
+      right: 0; } }
+
+/* line 663, E:/Projects/ops-invest/sass/all.scss */
+.img-additional {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  height: auto;
+  top: 100px; }
+  @media only screen and (max-width: 1024px) {
+    .img-additional {
+      top: auto;
+      bottom: -100px;
+      right: -131px; } }
+  @media only screen and (max-width: 768px) {
+    .img-additional {
+      top: auto;
+      width: 500px;
+      bottom: -50px;
+      right: -80px; } }
+
+/* line 682, E:/Projects/ops-invest/sass/all.scss */
+.list-additional {
+  padding: 30px 0;
+  padding-left: 37px; }
+  /* line 686, E:/Projects/ops-invest/sass/all.scss */
+  .list-additional ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    /* line 690, E:/Projects/ops-invest/sass/all.scss */
+    .list-additional ul li {
+      margin-top: 16px; }
+
+/* line 697, E:/Projects/ops-invest/sass/all.scss */
+.list-users {
+  position: relative;
+  padding: 40px 0; }
+  /* line 700, E:/Projects/ops-invest/sass/all.scss */
+  .list-users ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    /* line 704, E:/Projects/ops-invest/sass/all.scss */
+    .list-users ul li {
+      display: inline-block;
+      vertical-align: top;
+      width: 49%; }
+  @media only screen and (max-width: 768px) {
+    /* line 712, E:/Projects/ops-invest/sass/all.scss */
+    .list-users ul li {
+      display: block;
+      width: 100%;
+      margin: 20px 0; }
+ }
+
+/* line 720, E:/Projects/ops-invest/sass/all.scss */
+.img-user {
+  width: 230px;
+  height: 230px;
+  display: block;
+  margin: auto;
+  border-radius: 100%; }
+  /* line 726, E:/Projects/ops-invest/sass/all.scss */
+  .img-user img {
+    display: block; }
+
+/* line 730, E:/Projects/ops-invest/sass/all.scss */
+.name {
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  margin: 12px 0; }
+  @media only screen and (max-width: 1024px) {
+    .name {
+      font-size: 18px; } }
+
+/* line 739, E:/Projects/ops-invest/sass/all.scss */
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 46px;
+  height: 46px;
+  margin: 6px;
+  background: #333;
+  color: #e8edf0;
+  font-size: 24px;
+  text-decoration: none !important;
+  border-radius: 50%;
+  line-height: 42px;
+  text-align: center;
+  border: 2px solid #333; }
+  /* line 753, E:/Projects/ops-invest/sass/all.scss */
+  .icon:hover, .icon.active {
+    background: transparent;
+    color: #333; }
+
+/* line 759, E:/Projects/ops-invest/sass/all.scss */
+.img-logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 107px;
+  display: block;
+  max-width: 210px;
+  height: auto; }
+  @media only screen and (max-width: 1024px) {
+    .img-logo {
+      position: static;
+      margin: 0 auto;
+      margin-bottom: 20px; } }
+
+/* line 774, E:/Projects/ops-invest/sass/all.scss */
+.img-form {
+  width: 121px;
+  height: 121px;
+  display: block;
+  margin: auto;
+  margin-top: -80px;
+  background: url(../images/form-img.png) no-repeat; }
+
+/* line 782, E:/Projects/ops-invest/sass/all.scss */
+.input-ico {
+  position: relative; }
+  /* line 784, E:/Projects/ops-invest/sass/all.scss */
+  .input-ico input, .input-ico textarea {
+    padding-left: 35px; }
+  /* line 787, E:/Projects/ops-invest/sass/all.scss */
+  .input-ico *[class*=ico-] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    bottom: 0;
+    margin: auto;
+    width: 35px; }
+    /* line 795, E:/Projects/ops-invest/sass/all.scss */
+    .input-ico *[class*=ico-]:before {
+      margin-top: 15px; }
+  /* line 799, E:/Projects/ops-invest/sass/all.scss */
+  .input-ico .ico-mail:before {
+    margin-top: 18px; }
+
+/* line 804, E:/Projects/ops-invest/sass/all.scss */
+.ico-user:before {
+  background-position: 0 -200px;
+  width: 18px;
+  height: 18px; }
+
+/* line 811, E:/Projects/ops-invest/sass/all.scss */
+.ico-skype:before {
+  background-position: -100px -200px;
+  width: 20px;
+  height: 20px; }
+
+/* line 818, E:/Projects/ops-invest/sass/all.scss */
+.ico-mail:before {
+  background-position: -200px -200px;
+  width: 15px;
+  height: 10px; }
+
+/* line 825, E:/Projects/ops-invest/sass/all.scss */
+.ico-www:before {
+  background-position: -299px -200px;
+  width: 20px;
+  height: 20px; }
+
+/* line 833, E:/Projects/ops-invest/sass/all.scss */
+.form {
+  overflow: hidden;
+  max-width: 740px;
+  margin: 94px auto;
+  background: #fff;
+  border-radius: 4px;
+  border-bottom: 1px solid #dedede; }
+  /* line 840, E:/Projects/ops-invest/sass/all.scss */
+  .form .btn, .form .btn-embossed {
+    font-size: 28px; }
+    @media only screen and (max-width: 480px) {
+      .form .btn, .form .btn-embossed {
+        width: 100%; } }
+  /* line 846, E:/Projects/ops-invest/sass/all.scss */
+  .form legend {
+    text-align: center;
+    padding: 22px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    background: #f7f7f7;
+    border-top: 8px solid #ffd069;
+    border-bottom: none;
+    margin-bottom: 0; }
+    @media only screen and (max-width: 1024px) {
+      .form legend {
+        font-size: 18px; } }
+    /* line 859, E:/Projects/ops-invest/sass/all.scss */
+    .form legend > span {
+      color: #a63c5a; }
+  /* line 863, E:/Projects/ops-invest/sass/all.scss */
+  .form .col-1, .form .col-2 {
+    float: left;
+    padding: 0 6px; }
+  /* line 867, E:/Projects/ops-invest/sass/all.scss */
+  .form .col-1 {
+    width: 40%; }
+  /* line 870, E:/Projects/ops-invest/sass/all.scss */
+  .form .col-2 {
+    width: 60%; }
+  @media only screen and (max-width: 768px) {
+    .form {
+      background-color: transparent;
+      border-bottom: none;
+      margin: 50px 0;
+      border-radius: 0; } }
+
+/* line 880, E:/Projects/ops-invest/sass/all.scss */
+textarea {
+  min-height: 245px;
+  resize: vertical; }
+
+/* line 885, E:/Projects/ops-invest/sass/all.scss */
+.form-content {
+  padding: 12px 8px 40px;
+  overflow: hidden; }
+  @media only screen and (max-width: 768px) {
+    /* line 889, E:/Projects/ops-invest/sass/all.scss */
+    .form-content .col-1, .form-content .col-2 {
+      float: none;
+      width: 100%;
+      padding: 0; }
+ }
+  /* line 895, E:/Projects/ops-invest/sass/all.scss */
+  .form-content .alert {
+    margin: 0px 6px 15px; }
+    @media only screen and (max-width: 480px) {
+      .form-content .alert {
+        margin: 0;
+        margin-bottom: 15px; } }
+
+/* line 903, E:/Projects/ops-invest/sass/all.scss */
+.form-control {
+  border-width: 2px;
+  box-shadow: inset 0 -3px 1px rgba(0, 0, 0, 0.075); }
+
+/* line 907, E:/Projects/ops-invest/sass/all.scss */
+.btn, .btn-embossed {
+  font-size: 24px; }
+
+/* line 910, E:/Projects/ops-invest/sass/all.scss */
+.btn-embossed.btn-danger {
+  box-shadow: 0 5px #d96a5d; }
+
+/* line 916, E:/Projects/ops-invest/sass/all.scss */
+.text-through {
+  text-decoration: line-through; }
+
+/* line 919, E:/Projects/ops-invest/sass/all.scss */
+#mc_embed_signup input.mce_inline_error {
+  border-color: #ad2323 !important; }
+
+/* line 923, E:/Projects/ops-invest/sass/all.scss */
+.alert a {
+  font-weight: bold;
+  display: block; }
