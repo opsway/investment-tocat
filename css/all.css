@@ -1643,7 +1643,7 @@ h1 {
 
 /* line 79, E:/Projects/ops-invest/sass/all.scss */
 a {
-  text-decoration: none; }
+  text-decoration: underline; }
   /* line 81, E:/Projects/ops-invest/sass/all.scss */
   a:hover, a:focus {
     text-decoration: underline; }
